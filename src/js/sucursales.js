@@ -7,6 +7,8 @@ var sucursales =[
 		"region": "Región de Tarapacá",
 		"horario": "11:00 a 21:30 hrs",
 		"buscar": "Héroes de la concepción N° 2555, Iquique, Región de Tarapacá",
+		"latitud": -20.2328758,
+		"longitud": -70.14290879999999,
 		"title": ""
 	},
 	{	
@@ -17,6 +19,8 @@ var sucursales =[
 		"region": "Región de Antofagasta",
 		"horario": "11:00 a 21:00 hrs",
 		"buscar": "Balmaceda N° 2355, Antofagasta, Región de Antofagasta",
+		"latitud": -23.6460605,
+		"longitud": -70.400822,
 		"title": ""
 
 	},
@@ -28,6 +32,8 @@ var sucursales =[
 		"region": "Región de Antofagasta",
 		"horario": "11:00 a 21:00 hrs",
 		"buscar": "Balmaceda N° 3401, Calama, Región de Antofagasta",
+		"latitud": -22.4467879,
+		"longitud": -68.91968739999999,
 		"title":""
 	},
 	{
@@ -38,6 +44,8 @@ var sucursales =[
 		"region": "Región de Atacama",
 		"horario": "11:00 a 21:30 hrs",
 		"buscar": "Maipú N° 110, Copiapó, Región de Atacama",
+		"latitud": -27.3693267,
+		"longitud": -70.33958419999999,
 		"title": "Interior Mall Paza Copiapó"
 	},
 	{
@@ -48,6 +56,8 @@ var sucursales =[
 		"region": "Región de Coquimbo",
 		"horario": "11:00 a 21:30 hrs",
 		"buscar": "Prolongación Benavente 1075, Ovalle, Región de Coquimbo",
+		"latitud": -30.5975125,
+		"longitud": -71.18591950000001,
 		"title": ""
 	},
 	{
@@ -58,6 +68,8 @@ var sucursales =[
 		"region": "Región de Coquimbo",
 		"horario": "11:00 a 21:00 hrs",
 		"buscar": "Alberto Solari N°1400, La Serena, Región de Coquimbo",
+		"latitud": -29.9125086,
+		"longitud": -71.25864680000001,
 		"title": ""
 	},
 	{
@@ -68,6 +80,8 @@ var sucursales =[
 		"region": "Región de Valparaiso",
 		"horario": "10:30 a 21:00 hrs",
 		"buscar": "Sucre N°250, Viña del Mar, Región de Valparaíso",
+		"latitud": -33.0256822,
+		"longitud": -71.55236919999999,
 		"title":""
 	},
 	{
@@ -78,6 +92,8 @@ var sucursales =[
 		"region": "Región de Valparaiso",
 		"horario": "10:30 a 21:00 hrs",
 		"buscar": "Av. Benidorm 961, Viña del Mar, Región de Valparaíso",
+		"latitud": -33.0082898,
+		"longitud": -71.5464288,
 		"title":"Mall Espacio Urbano 2° Piso"
 	},
 	{
@@ -88,6 +104,8 @@ var sucursales =[
 		"region": "Región de Valparaíso",
 		"horario": "11:00 a 21:00 hrs",
 		"buscar": "Independencia N°1806, Valparaíso, Región de Valparaíso",
+		"latitud": -33.0476514,
+		"longitud": -71.61826489999999,
 		"title": ""
 	},
 	{
@@ -98,6 +116,8 @@ var sucursales =[
 		"region": "Región de Valparaíso",
 		"horario": "11:00 a 21:00 hrs",
 		"buscar": "Prolongacion J.J.Pérez N°12010, La Calera, Región de Valparaíso",
+		"latitud": -32.790517,
+		"longitud": -71.19149199999998,
 		"title":""
 	},
 	{
@@ -108,6 +128,8 @@ var sucursales =[
 		"region": "Región de Valparaíso",
 		"horario": "10:30 a 21:00 hrs",
 		"buscar": "Av. Bernardo O'Higgins N°1150, San Felipe, Región de Valparaíso", 
+		"latitud": -32.756596,
+		"longitud": -70.72241700000001,
 		"title": "Interior Falabella",
 	},
 	{
@@ -118,6 +140,8 @@ var sucursales =[
 		"region": "Región de Valparaíso",
 		"horario": "10:30 a 21:00 hrs",
 		"buscar": "Portales N°822, San Felipe, Región de Valparaíso", 
+		"latitud": -32.756596,
+		"longitud": -70.72241700000001,
 		"title": ""
 	},
 	{
@@ -128,6 +152,8 @@ var sucursales =[
 		"region": "Región Metropolitana",
 		"horario": "10:00 a 20:30 hrs",
 		"buscar": "Av. Manuel Antonio Matta N° 581, Quilicura, Región Metropolitana", 
+		"latitud": -33.365592,
+		"longitud": -70.72717610000001,
 		"title": "Interior Homecenter "
 	},
 	{
@@ -138,6 +164,8 @@ var sucursales =[
 		"region": "Región Metropolitana",
 		"horario": "10:30 a 20:30 hrs",
 		"buscar": "Av. Jorge Alessandri N°1347, La Reina, Región Metropolitana", 
+		"latitud": -33.4572299,
+		"longitud": -70.54527139999999,
 		"title": "Interior Homecenter"
 	},
 	{
@@ -149,6 +177,8 @@ var sucursales =[
 		"region": "Región Metropolitana",
 		"horario": "10:30 a 20:30 hrs",
 		"buscar": "Av. Las Condes N°11049, Las Condes, Región Metropolitana", 
+		"latitud": -33.3831418,
+		"longitud": -70.533049,
 		"title": "Interior Homecenter"
 	},
 	{
@@ -159,6 +189,8 @@ var sucursales =[
 		"region": "Región Metropolitana",
 		"horario": "9:00 a 21:00 hrs",
 		"buscar": "Av. Pajaritos N°4444, Maipú, Región Metropolitana", 
+		"latitud": -33.4910166,
+		"longitud": -70.75492489999999,
 		"title": "Interior Homecenter"
 	},
 	{
@@ -169,6 +201,8 @@ var sucursales =[
 		"region": "Región Metropolitana",
 		"horario": "10:30 a 20:30 hrs",
 		"buscar": "Av. José Pedro Alessandri N°6405, La Florida, Región Metropolitana", 
+		"latitud": -33.4677773,
+		"longitud": -70.59849559999998,
 		"title": "Interior Homecenter"
 	},
 	{
@@ -179,6 +213,8 @@ var sucursales =[
 		"region": "Región Metropolitana",
 		"horario": "9:00 a 21:00 hrs",
 		"buscar": "Av. Américo Vespucio N°1737. Huechuraba, Región Metropolitana", 
+		"latitud": -33.3807721,
+		"longitud": -70.64458960000002,
 		"title": "Interior Homecenter Mall Plaza Norte"
 	},
 	{
@@ -189,6 +225,8 @@ var sucursales =[
 		"region": "Región Metropolitana",
 		"horario": "9:00 a 21:00 hrs",
 		"buscar": "Av. Concha y Toro N°", 
+		"latitud": -33.5968026,
+		"longitud": -70.5786766,
 		"title": "Interior Homencenter Mall Plaza Norte"
 	},
 	{
@@ -199,6 +237,8 @@ var sucursales =[
 		"region": "Región Metropolitana",
 		"horario": "9:00 a 21:00 hrs",
 		"buscar": "Av. Gran Avenida N°5508, San Miguel, Región Metropolitana", 
+		"latitud": -33.503768,
+		"longitud": -70.65488299999998,
 		"title": "Interior Homecenter"
 	},
 	{
@@ -209,6 +249,8 @@ var sucursales =[
 		"region": "Región Metropolitana",
 		"horario": "10:30 a 20:30 hrs",
 		"buscar": "Av. Camilo Henriquez N°3292, Puente Alto, Región Metropolitana", 
+		"latitud": -33.5765791,
+		"longitud": -70.5530564,
 		"title": "Interior Homecenter Mall Plaza Tobalaba"
 	},
 	{
@@ -219,6 +261,8 @@ var sucursales =[
 		"region": "Región Metropolitana",
 		"horario": "10:30 a 20:30 hrs",
 		"buscar": "Av. Kennedy N°5601, Las Condes, Región Metropolitana", 
+		"latitud": -33.400276,
+		"longitud": -70.57539500000001,
 		"title": "Interior Homecenter Mall Parque Arauco"	
 	},
 	{
@@ -229,6 +273,8 @@ var sucursales =[
 		"region": "Región Metropolitana",
 		"horario": "9:00 a 21:00 hrs",
 		"buscar": "Av. Américo Vespucio N°1501, Cerrillos, Región Metropolitana", 
+		"latitud": -33.5103842,
+		"longitud": -70.72214830000001,
 		"title": "Interior Homecenter Mall Parque Oeste"
 	},
 	{
@@ -239,6 +285,8 @@ var sucursales =[
 		"region": "Región Metropolitana",
 		"horario": "11:00 a 21:00 hrs",
 		"buscar": "Av. Kennedy N°9001, Las Condes, Región Metropolitana", 
+		"latitud": -33.3908732,
+		"longitud": -70.54628350000002,
 		"title": "Interior Alto Las Condes"
 	},
 	{
@@ -249,6 +297,8 @@ var sucursales =[
 		"region": "Región Metropolitana",
 		"horario": "11:00 a 21:00 hrs",
 		"buscar": "Av. Manquehue Sur N°329, Las Condes, Región Metropolitana", 
+		"latitud": -33.4133148,
+		"longitud": -70.56592899999998,
 		"title": "Interior Falabella"
 	},
 	{
@@ -259,6 +309,8 @@ var sucursales =[
 		"region": "Región Metropolitana",
 		"horario": "11:00 a 21:00 hrs",
 		"buscar": "Av. La Dehesa N°1445, Lo Barnechea, Región Metropolitana", 
+		"latitud": -33.3456764,
+		"longitud": -70.52192170000001,
 		"title": ""
 	},
 	{
@@ -269,6 +321,8 @@ var sucursales =[
 		"region": "Región Metropolitana",
 		"horario": "11:00 a 21:00 hrs",
 		"buscar": "Av. Kennedy N°5413, Las Condes, Región Metropolitana", 
+		"latitud": -33.4023198,
+		"longitud": -70.57894190000002,
 		"title": "Interior Parque Arauco"
 	},
 	{
@@ -279,6 +333,8 @@ var sucursales =[
 		"region": "Región Metropolitana",
 		"horario": "11:00 a 21:00 hrs",
 		"buscar": "Av. Nueva de Lyon, Providencia, Región Metropolitana", 
+		"latitud": -33.4209867
+		"longitud": -70.61054680000001
 		"title": ""
 	},
 	{
