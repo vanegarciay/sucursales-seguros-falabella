@@ -1,6 +1,11 @@
-# Metodologia Agile:
+## Metodologia Agile:
 
- `Framewrok: Kanban con algunos aspectos de XP(Para las historias de usuario) y Scrum (Reuniones tipo Daily, Restrospectivas, MVP)`
+
+```
+ Framewrok:
+ * Kanban con algunos aspectos de XP(Para las historias de usuario).
+ * Scrum (Reuniones tipo Daily, Restrospectivas, MVP).
+```
 
 # Requerimientos Técnicos
 
