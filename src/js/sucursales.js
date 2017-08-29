@@ -47,7 +47,7 @@ var sucursales =[
 		"comuna": "Ovalle",
 		"region": "Región de Coquimbo",
 		"horario": "11:00 a 21:30 hrs",
-		"buscar": "Prolongación Benavente 1075, Ovalle, Región de Coquimbo"
+		"buscar": "Prolongación Benavente 1075, Ovalle, Región de Coquimbo",
 		"title": ""
 	},
 	{
@@ -67,7 +67,7 @@ var sucursales =[
 		"comuna": "Viña del Mar",
 		"region": "Región de Valparaiso",
 		"horario": "10:30 a 21:00 hrs",
-		"lugar": "Sucre N°250, Viña del Mar, Región de Valparaíso",
+		"buscar": "Sucre N°250, Viña del Mar, Región de Valparaíso",
 		"title":""
 	},
 	{
@@ -77,7 +77,7 @@ var sucursales =[
 		"comuna": "Viña del Mar",
 		"region": "Región de Valparaiso",
 		"horario": "10:30 a 21:00 hrs",
-		"lugar": "Av. Benidorm 961, Viña del Mar, Región de Valparaíso",
+		"buscar": "Av. Benidorm 961, Viña del Mar, Región de Valparaíso",
 		"title":"Mall Espacio Urbano 2° Piso"
 	},
 	{
@@ -87,7 +87,7 @@ var sucursales =[
 		"comuna": "Valparaíso",
 		"region": "Región de Valparaíso",
 		"horario": "11:00 a 21:00 hrs",
-		"lugar": "Independencia N°1806, Valparaíso, Región de Valparaíso",
+		"buscar": "Independencia N°1806, Valparaíso, Región de Valparaíso",
 		"title": ""
 	},
 	{
@@ -97,7 +97,7 @@ var sucursales =[
 		"comuna": "La Calera",
 		"region": "Región de Valparaíso",
 		"horario": "11:00 a 21:00 hrs",
-		"lugar": "Prolongacion J.J.Pérez N°12010, La Calera, Región de Valparaíso";
+		"buscar": "Prolongacion J.J.Pérez N°12010, La Calera, Región de Valparaíso",
 		"title":""
 	},
 	{
@@ -107,7 +107,7 @@ var sucursales =[
 		"comuna": "San Felipe",
 		"region": "Región de Valparaíso",
 		"horario": "10:30 a 21:00 hrs",
-		"lugar": "Av. Bernardo O'Higgins N°1150, San Felipe, Región de Valparaíso", 
+		"buscar": "Av. Bernardo O'Higgins N°1150, San Felipe, Región de Valparaíso", 
 		"title": "Interior Falabella",
 	},
 	{
@@ -116,7 +116,7 @@ var sucursales =[
 		"direccion":"Portales N°822 2° Piso",
 		"comuna": "San Felipe",
 		"region": "Región de Valparaíso",
-		"horario": "10:30 a 21:00 hrs"
+		"horario": "10:30 a 21:00 hrs",
 		"buscar": "Portales N°822, San Felipe, Región de Valparaíso", 
 		"title": ""
 	},
@@ -126,7 +126,7 @@ var sucursales =[
 		"direccion":"Av. Manuel Antonio Matta N°581",
 		"comuna": "Quilicura",
 		"region": "Región Metropolitana",
-		"horario": "10:00 a 20:30 hrs"
+		"horario": "10:00 a 20:30 hrs",
 		"buscar": "Av. Manuel Antonio Matta N° 581, Quilicura, Región Metropolitana", 
 		"title": "Interior Homecenter "
 	},
@@ -136,7 +136,7 @@ var sucursales =[
 		"direccion":"Av. Jorge Alessandri N°1347",
 		"comuna": "La Reina",
 		"region": "Región Metropolitana",
-		"horario": "10:30 a 20:30 hrs"
+		"horario": "10:30 a 20:30 hrs",
 		"buscar": "Av. Jorge Alessandri N°1347, La Reina, Región Metropolitana", 
 		"title": "Interior Homecenter"
 	},
@@ -147,7 +147,7 @@ var sucursales =[
 		"direccion":"Av. Las Condes N°11049",
 		"comuna": "Las Condes",
 		"region": "Región Metropolitana",
-		"horario": "10:30 a 20:30 hrs"
+		"horario": "10:30 a 20:30 hrs",
 		"buscar": "Av. Las Condes N°11049, Las Condes, Región Metropolitana", 
 		"title": "Interior Homecenter"
 	},
@@ -157,7 +157,7 @@ var sucursales =[
 		"direccion":"Av. Pajaritos N°4444",
 		"comuna": "Maipú",
 		"region": "Región Metropolitana",
-		"horario": "9:00 a 21:00 hrs"
+		"horario": "9:00 a 21:00 hrs",
 		"buscar": "Av. Pajaritos N°4444, Maipú, Región Metropolitana", 
 		"title": "Interior Homecenter"
 	},
@@ -167,7 +167,7 @@ var sucursales =[
 		"direccion":"Av. José Pedro Alessandri N°6405",
 		"comuna": "La Florida",
 		"region": "Región Metropolitana",
-		"horario": "10:30 a 20:30 hrs"
+		"horario": "10:30 a 20:30 hrs",
 		"buscar": "Av. José Pedro Alessandri N°6405, La Florida, Región Metropolitana", 
 		"title": "Interior Homecenter"
 	},
@@ -177,7 +177,7 @@ var sucursales =[
 		"direccion":"Av. Américo Vespucio N°1737",
 		"comuna": "Huechuraba",
 		"region": "Región Metropolitana",
-		"horario": "9:00 a 21:00 hrs"
+		"horario": "9:00 a 21:00 hrs",
 		"buscar": "Av. Américo Vespucio N°1737. Huechuraba, Región Metropolitana", 
 		"title": "Interior Homecenter Mall Plaza Norte"
 	},
@@ -187,7 +187,7 @@ var sucursales =[
 		"direccion":"Av. Concha y Toro N°1315",
 		"comuna": "Puente Alto",
 		"region": "Región Metropolitana",
-		"horario": "9:00 a 21:00 hrs"
+		"horario": "9:00 a 21:00 hrs",
 		"buscar": "Av. Concha y Toro N°", 
 		"title": "Interior Homencenter Mall Plaza Norte"
 	},
@@ -197,7 +197,7 @@ var sucursales =[
 		"direccion":"Av. Gran Avenida N°5508",
 		"comuna": "San Miguel",
 		"region": "Región Metropolitana",
-		"horario": "9:00 a 21:00 hrs"
+		"horario": "9:00 a 21:00 hrs",
 		"buscar": "Av. Gran Avenida N°5508, San Miguel, Región Metropolitana", 
 		"title": "Interior Homecenter"
 	},
@@ -207,7 +207,7 @@ var sucursales =[
 		"direccion":"Av. Camilo Henriquez N°3292",
 		"comuna": "Puente Alto",
 		"region": "Región Metropolitana",
-		"horario": "10:30 a 20:30 hrs"
+		"horario": "10:30 a 20:30 hrs",
 		"buscar": "Av. Camilo Henriquez N°3292, Puente Alto, Región Metropolitana", 
 		"title": "Interior Homecenter Mall Plaza Tobalaba"
 	},
@@ -217,7 +217,7 @@ var sucursales =[
 		"direccion":"Av. Kennedy N°5601",
 		"comuna": "Las Condes",
 		"region": "Región Metropolitana",
-		"horario": "10:30 a 20:30 hrs"
+		"horario": "10:30 a 20:30 hrs",
 		"buscar": "Av. Kennedy N°5601, Las Condes, Región Metropolitana", 
 		"title": "Interior Homecenter Mall Parque Arauco"	
 	},
@@ -227,7 +227,7 @@ var sucursales =[
 		"direccion":"Av. Américo Vespucio N°1501",
 		"comuna": "Cerrillos",
 		"region": "Región Metropolitana",
-		"horario": "9:00 a 21:00 hrs"
+		"horario": "9:00 a 21:00 hrs",
 		"buscar": "Av. Américo Vespucio N°1501, Cerrillos, Región Metropolitana", 
 		"title": "Interior Homecenter Mall Parque Oeste"
 	},
@@ -237,7 +237,7 @@ var sucursales =[
 		"direccion":"Av. Kennedy N°9001",
 		"comuna": "Las Condes",
 		"region": "Región Metropolitana",
-		"horario": "11:00 a 21:00 hrs"
+		"horario": "11:00 a 21:00 hrs",
 		"buscar": "Av. Kennedy N°9001, Las Condes, Región Metropolitana", 
 		"title": "Interior Alto Las Condes"
 	},
@@ -247,7 +247,7 @@ var sucursales =[
 		"direccion":"Av. Manquehue Sur N°329",
 		"comuna": "Las Condes",
 		"region": "Región Metropolitana",
-		"horario": "11:00 a 21:00 hrs"
+		"horario": "11:00 a 21:00 hrs",
 		"buscar": "Av. Manquehue Sur N°329, Las Condes, Región Metropolitana", 
 		"title": "Interior Falabella"
 	},
@@ -257,7 +257,7 @@ var sucursales =[
 		"direccion":"Av. La Dehesa N°1445",
 		"comuna": "Lo Barnechea",
 		"region": "Región Metropolitana",
-		"horario": "11:00 a 21:00 hrs"
+		"horario": "11:00 a 21:00 hrs",
 		"buscar": "Av. La Dehesa N°1445, Lo Barnechea, Región Metropolitana", 
 		"title": ""
 	},
@@ -267,7 +267,7 @@ var sucursales =[
 		"direccion":"Av. Kennedy N°5413",
 		"comuna": "Las Condes",
 		"region": "Región Metropolitana",
-		"horario": "11:00 a 21:00 hrs"
+		"horario": "11:00 a 21:00 hrs",
 		"buscar": "Av. Kennedy N°5413, Las Condes, Región Metropolitana", 
 		"title": "Interior Parque Arauco"
 	},
@@ -277,7 +277,7 @@ var sucursales =[
 		"direccion":"Av. Nueva de Lyon N°5413",
 		"comuna": "Providencia",
 		"region": "Región Metropolitana",
-		"horario": "11:00 a 21:00 hrs"
+		"horario": "11:00 a 21:00 hrs",
 		"buscar": "Av. Nueva de Lyon, Providencia, Región Metropolitana", 
 		"title": ""
 	},
@@ -291,6 +291,8 @@ var sucursales =[
 		"buscar": "Av. Américo Vespucio N°1737,Huechuraba, Región Metropolitana",
 		"Latitud":-33.3676118,
 		"Longitud":-70.6791402,
+		"horario": "11:00 a 21:00 hrs",
+		"buscar": "Av. Américo Vespucio N°1737,Huechuraba, Región Metropolitana", 
 		"title": "Interior Mall Plaza Norte"
 	},
 	{
@@ -299,7 +301,7 @@ var sucursales =[
 		"direccion":"Av. Andres Bello N°2433 local 2400",
 		"comuna": "Providencia",
 		"region": "Región Metropolitana",
-		"horario": "11:00 a 21:00 hrs"
+		"horario": "11:00 a 21:00 hrs",
 		"buscar": "Av. Andres Bello N°2433, Providencia, Región Metropolitana", 
 		"Latitud":-33.42612400000001,
 		"Longitud":-33.42612400000001,
@@ -315,6 +317,8 @@ var sucursales =[
 		"buscar": "Puente N°530, Santiago, Región Metropolitana",
 		"Latitud":-33.4370266,
 		"Longitud":-70.65131550000001,
+		"horario": "10:30 a 21:00 hrs",
+		"buscar": "Puente N°530, Santiago, Región Metropolitana", 
 		"title": " "
 	},
 	{
@@ -323,7 +327,7 @@ var sucursales =[
 		"direccion":"Av. Larraín N°5262",
 		"comuna": "Ñuñoa",
 		"region": "Región Metropolitana",
-		"horario": "11:00 a 21:00 hrs"
+		"horario": "11:00 a 21:00 hrs",
 		"buscar": "Av. Larraín N°5262, Ñuñoa, Región Metropolitana", 
 		"Latitud":-33.4520485,
 		"Longitud":-70.55716159999997,
@@ -335,7 +339,7 @@ var sucursales =[
 		"direccion":"Av. Américo Vespucio N°399",
 		"comuna": "Maipú",
 		"region": "Región Metropolitana",
-		"horario": "11:00 a 21:00 hrs"
+		"horario": "11:00 a 21:00 hrs",
 		"buscar": "Av. Américo Vespucio N°399, Maipú, Región Metropolitana", 
 		"Latitud":-33.3847306,
 		"Longitud":-70.63879480000003,
@@ -347,7 +351,7 @@ var sucursales =[
 		"direccion":"Av. Jorge Alessandri N°20040",
 		"comuna": "San Bernardo",
 		"region": "Región Metropolitana",
-		"horario": "11:00 a 21:00 hrs"
+		"horario": "11:00 a 21:00 hrs",
 		"buscar": "Av. Jorge Alessandri N°20040, San Bernardo, Región Metropolitana", 
 		"Latitud":-33.6319806,
 		"Longitud":-70.7108278,
@@ -359,7 +363,7 @@ var sucursales =[
 		"direccion":"Av. Américo Vespucio N°1501",
 		"comuna": "Cerrillos",
 		"region": "Región Metropolitana",
-		"horario": "11:00 a 21:00 hrs"
+		"horario": "11:00 a 21:00 hrs",
 		"buscar": "Av. Américo Vespucio N°1501, Cerrillos, Región Metropolitana", 
 		"Latitud":-33.3847306,
 		"Longitud":-70.63879480000003,
@@ -371,7 +375,7 @@ var sucursales =[
 		"direccion":"Av. Américo Vespucio N°1501",
 		"comuna": "Cerrillos",
 		"region": "Región Metropolitana",
-		"horario": "11:00 a 21:00 hrs"
+		"horario": "11:00 a 21:00 hrs",
 		"buscar": "Av. Américo Vespucio N°1501, Cerrillos Región Metropolitana", 
 		"Latitud":-33.5103842,
 		"Longitud":-70.72214830000001,
@@ -383,7 +387,7 @@ var sucursales =[
 		"direccion":"Av. Camilo Henriquez N°3296",
 		"comuna": "Puente Alto",
 		"region": "Región Metropolitana",
-		"horario": "11:00 a 21:00 hrs"
+		"horario": "11:00 a 21:00 hrs",
 		"buscar": "Av. Camilo Henriquez N°3296, Puente Alto, Región Metropolitana", 
 		"Latitud":-33.5765791,
 		"Longitud":-70.5530564,
@@ -395,7 +399,7 @@ var sucursales =[
 		"direccion":"Av. Américo Vespucio N°7200",
 		"comuna": "La Florida",
 		"region": "Región Metropolitana",
-		"horario": "11:00 a 21:00 hrs"
+		"horario": "11:00 a 21:00 hrs",
 		"buscar": "Av. Américo Vespucio N°7200, La Florida, Región Metropolitana", 
 		"Latitud":-33.3847306,
 		"Longitud":-70.63879480000003,
@@ -407,7 +411,7 @@ var sucursales =[
 		"direccion":"Av. Vicuña Mackenna Oriente N°7200",
 		"comuna": "La Florida",
 		"region": "Región Metropolitana",
-		"horario": "11:00 a 21:00 hrs"
+		"horario": "11:00 a 21:00 hrs",
 		"buscar": "Av Vicuña Mackenna Oriente N°7200, La Florida, Región Metropolitana", 
 		"Latitud":-33.5308248,
 		"Longitud":-70.59484379999998,
@@ -423,6 +427,8 @@ var sucursales =[
 		"buscar": "Ahumada N°280, Santiago, Región Metropolitana", 
 		"Latitud":-33.4412122,
 		"Longitud":-70.65072270000002,
+		"horario": "9:30 a 20:00 hrs",
+		"buscar": "Ahumada N°280, Santiago, Región Metropolitana", 
 		"title": " "
 	},
 	{
@@ -431,7 +437,7 @@ var sucursales =[
 		"direccion":"Av. Libertador Bernardo O'Higgins N°3470",
 		"comuna": "Estación Central",
 		"region": "Región Metropolitana",
-		"horario": "11:00 a 21:00 hrs"
+		"horario": "11:00 a 21:00 hrs",
 		"Latitud":-33.4372595,
 		"Longitud":-70.6351861,
 		"buscar": "Av. Libertador Bernardo O'Higgins,Estación Central, Región Metropolitana", 
@@ -443,7 +449,7 @@ var sucursales =[
 		"direccion":"Vargas N°457",
 		"comuna": "Melipilla",
 		"region": "Región Metropolitana",
-		"horario": "11:00 a 21:00 hrs"
+		"horario": "11:00 a 21:00 hrs",
 		"buscar": "Vargas N°457,Melipilla, Región Metropolitana", 
 		"Latitud":-33.4532069,
 		"Longitud":-70.6501551,
@@ -455,7 +461,7 @@ var sucursales =[
 		"direccion":"Sarguento Cuevas N°405",
 		"comuna": "Rancagua",
 		"region": "Región de O'Higgins",
-		"horario": "10:30 a 21:00 hrs"
+		"horario": "10:30 a 21:00 hrs",
 		"buscar": "Sarguento Cuevas N°405, Rancagua ,Región de O'Higgins", 
 		"Latitud":-33.4615572,
 		"Longitud":-70.63315890000001,
@@ -467,7 +473,7 @@ var sucursales =[
 		"direccion":"Av. Bernardo O'Higgins N°701",
 		"comuna": "San fernando",
 		"region": "Región Metropolitana",
-		"horario": "10:30 a 21:00 hrs"
+		"horario": "10:30 a 21:00 hrs",
 		"buscar": "Av. Bernardo O'Higgins N°701, San Fernando, Región Metropolitana", 
 		"Latitud":-33.3537382,
 		"Longitud":-70.72920199999999,
@@ -479,7 +485,7 @@ var sucursales =[
 		"direccion":"Peña N°615",
 		"comuna": "Curicó",
 		"region": "Región del Maule",
-		"horario": "10:00 a 20:30 hrs"
+		"horario": "10:00 a 20:30 hrs",
 		"buscar": "Peña N°615, Curicó, Región del Maule", 
 		"Latitud":-34.98467000000001,
 		"Longitud":-71.24169,
@@ -495,6 +501,8 @@ var sucursales =[
 		"buscar": "Uno norte N°1485, Talca, Región del Maule", 
 		"Latitud":-35.4268481,
 		"Longitud":-71.65561889999998,
+		"horario": "10:00 a 20:30 hrs",
+		"buscar": "Peña N°615, Curicó, Región del Maule", 
 		"title": ""
 	},
 	{
@@ -503,7 +511,7 @@ var sucursales =[
 		"direccion":"El Roble N°770",
 		"comuna": "Chillán",
 		"region": "Región del Biobío",
-		"horario": "10:00 a 21:00 hrs"
+		"horario": "10:00 a 21:00 hrs",
 		"buscar": "El Roble N°770, Chillán, Región del Biobío", 
 		"Latitud":-36.6086452,
 		"Longitud":-72.10333700000001,
@@ -515,7 +523,7 @@ var sucursales =[
 		"direccion":"Barros Arana N°802",
 		"comuna": "Concepción",
 		"region": "Región del Biobío",
-		"horario": "10:00 a 20:30 hrs"
+		"horario": "10:00 a 20:30 hrs",
 		"buscar": "Barros Arana N°770, Concepción, Región del Biobío",
 		"Latitud":-36.8252877,
 		"Longitud":-73.04743539999998,
@@ -527,7 +535,7 @@ var sucursales =[
 		"direccion":"Av. Jorge Alessandri N°3177",
 		"comuna": "Concepción",
 		"region": "Región del Biobío",
-		"horario": "10:00 a 21:00 hrs"
+		"horario": "10:00 a 21:00 hrs",
 		"buscar": "Av. Jorge Alessandri N°3177, Concepción, Región del Biobío", 
 		"Latitud":-36.7802354,
 		"Longitud":-73.05870820000001,
@@ -539,7 +547,7 @@ var sucursales =[
 		"direccion":"Hualpén N°9200",
 		"comuna": "Talcahuano",
 		"region": "Región del Biobío",
-		"horario": "10:00 a 20:30 hrs"
+		"horario": "10:00 a 20:30 hrs",
 		"buscar": "Hualpén N°9200, Talcahuano, Región del Biobío", 
 		"Latitud":-36.7330232,
 		"Longitud":-73.1108079,
@@ -551,7 +559,7 @@ var sucursales =[
 		"direccion":"Valdivia N°472",
 		"comuna": "Valdivia",
 		"region": "Región de los Ríos",
-		"horario": "10:00 a 21:00 hrs"
+		"horario": "10:00 a 21:00 hrs",
 		"buscar": "Valdivia N°472, Valdivia, Región de los Ríos", 
 		"Latitud":-39.8289094,
 		"Longitud":-73.20711240000003,
@@ -563,7 +571,7 @@ var sucursales =[
 		"direccion":"Prat N°570",
 		"comuna": "Temuco",
 		"region": "Región de la Araucanía",
-		"horario": "10:00 a 20:30 hrs"
+		"horario": "10:00 a 20:30 hrs",
 		"buscar": "Prat N°570, Temuco, Región de la Araucanía", 
 		"Latitud":-38.7446848,
 		"Longitud":-72.58974660000001,
@@ -575,7 +583,7 @@ var sucursales =[
 		"direccion":"Arauco N°561",
 		"comuna": "Valdivia",
 		"region": "Región de los Ríos",
-		"horario": "10:30 a 21:00 hrs"
+		"horario": "10:30 a 21:00 hrs",
 		"buscar": "Arauco N°561, Valdivia, Región de los Ríos", 
 		"Latitud":-39.8158673,
 		"Longitud":-73.24204220000001,
@@ -587,7 +595,7 @@ var sucursales =[
 		"direccion":"Ramirez N°840",
 		"comuna": "Osorno",
 		"region": "Región de los Lagos",
-		"horario": "10:00 a 20:30 hrs"
+		"horario": "10:00 a 20:30 hrs",
 		"buscar": "Ramirez N°561,Osorno, Región de los Lagos", 
 		"Latitud":-40.2897598,
 		"Longitud":-73.08219050000002,
@@ -599,10 +607,10 @@ var sucursales =[
 		"direccion":"Juan Soler Manfredini N°101",
 		"comuna": "Puerto Montt",
 		"region": "Región de los Lagos",
-		"horario": "10:00 a 21:00 hrs"
+		"horario": "10:00 a 21:00 hrs",
 		"buscar": "Juan Soler Manfredini N°101, Región de los Lagos", 
-		"Latitud":,
-		"Longitud":,
+		"Latitud":-41.4750635,
+		"Longitud":-72.92577219999998,
 		"title": " "
 	},
 	{
@@ -611,13 +619,13 @@ var sucursales =[
 		"direccion":"Av. Frei Montalva N°1110",
 		"comuna": "Punta Arenas",
 		"region": "Región de Magallanes",
-		"horario": "11:00 a 21:00 hrs"
+		"horario": "11:00 a 21:00 hrs",
 		"buscar": "Av. Frei Montalva, Punta Arenas, Región de magallanes", 
 		"Latitud":-53.13351979999999,
 		"Longitud":-70.9110349,
 		"title": " "
 	}
-]
+];
 
 
 
