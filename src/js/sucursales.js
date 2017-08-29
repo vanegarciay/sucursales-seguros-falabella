@@ -7,7 +7,7 @@ var sucursales =[
 		"region": "Región de Tarapacá",
 		"horario": "11:00 a 21:30 hrs",
 		"buscar": "Héroes de la concepción N° 2555, Iquique, Región de Tarapacá",
-		"title": 
+		"title": ""
 	},
 	{	
 		"id": 2,
@@ -17,7 +17,7 @@ var sucursales =[
 		"region": "Región de Antofagasta",
 		"horario": "11:00 a 21:00 hrs",
 		"buscar": "Balmaceda N° 2355, Antofagasta, Región de Antofagasta",
-		"title": 
+		"title": ""
 
 	},
 	{
@@ -28,7 +28,7 @@ var sucursales =[
 		"region": "Región de Antofagasta",
 		"horario": "11:00 a 21:00 hrs",
 		"buscar": "Balmaceda N° 3401, Calama, Región de Antofagasta",
-		"title";
+		"title":""
 	},
 	{
 		"id":4,
@@ -48,7 +48,7 @@ var sucursales =[
 		"region": "Región de Coquimbo",
 		"horario": "11:00 a 21:30 hrs",
 		"buscar": "Prolongación Benavente 1075, Ovalle, Región de Coquimbo"
-		"title": 
+		"title": ""
 	},
 	{
 		"id": 6,
@@ -58,7 +58,7 @@ var sucursales =[
 		"region": "Región de Coquimbo",
 		"horario": "11:00 a 21:00 hrs",
 		"buscar": "Alberto Solari N°1400, La Serena, Región de Coquimbo",
-		"title": 
+		"title": ""
 	},
 	{
 		"id": 7,
@@ -68,7 +68,7 @@ var sucursales =[
 		"region": "Región de Valparaiso",
 		"horario": "10:30 a 21:00 hrs",
 		"lugar": "Sucre N°250, Viña del Mar, Región de Valparaíso",
-		"title":
+		"title":""
 	},
 	{
 		"id": 8,
@@ -88,7 +88,7 @@ var sucursales =[
 		"region": "Región de Valparaíso",
 		"horario": "11:00 a 21:00 hrs",
 		"lugar": "Independencia N°1806, Valparaíso, Región de Valparaíso",
-		"title": 
+		"title": ""
 	},
 	{
 		"id": 10,
@@ -98,7 +98,7 @@ var sucursales =[
 		"region": "Región de Valparaíso",
 		"horario": "11:00 a 21:00 hrs",
 		"lugar": "Prolongacion J.J.Pérez N°12010, La Calera, Región de Valparaíso";
-		"title":
+		"title":""
 	},
 	{
 		"id": 11,
@@ -118,7 +118,7 @@ var sucursales =[
 		"region": "Región de Valparaíso",
 		"horario": "10:30 a 21:00 hrs"
 		"buscar": "Portales N°822, San Felipe, Región de Valparaíso", 
-		"title": 
+		"title": ""
 	},
 	{
 		"id": 13,
@@ -561,6 +561,6 @@ var sucursales =[
 		"buscar": "Av. Frei Montalva, Punta Arenas, Región de magallanes", 
 		"title": " "
 	}
-]
+];
 
 
