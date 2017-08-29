@@ -332,9 +332,9 @@ var sucursales =[
 		"comuna": "Providencia",
 		"region": "Región Metropolitana",
 		"horario": "11:00 a 21:00 hrs",
-		"buscar": "Av. Nueva de Lyon, Providencia, Región Metropolitana", 
-		"latitud": -33.4209867
-		"longitud": -70.61054680000001
+		"buscar": "Av. Nueva de Lyon, Providencia, Región Metropolitana",
+		"latitud": -33.4209867,
+		"longitud": -70.61054680000001,
 		"title": ""
 	},
 {
@@ -391,7 +391,7 @@ var sucursales =[
 		"direccion":"Av. Américo Vespucio N°399",
 		"comuna": "Maipú",
 		"region": "Región Metropolitana",
-		"horario": "11:00 a 21:00 hrs"
+		"horario": "11:00 a 21:00 hrs",
 		"buscar": "Av. Américo Vespucio N°399, Maipú, Región Metropolitana", 
 		"Latitud":-33.3847306,
 		"Longitud":-70.63879480000003,
@@ -475,7 +475,7 @@ var sucursales =[
 		"direccion":"Ahumada N°280",
 		"comuna": "Santiago",
 		"region": "Región Metropolitana",
-		"horario": "9:30 a 20:00 hrs"
+		"horario": "9:30 a 20:00 hrs",
 		"buscar": "Ahumada N°280, Santiago, Región Metropolitana", 
 		"Latitud":-33.4412122,
 		"Longitud":-70.65072270000002,
@@ -547,7 +547,7 @@ var sucursales =[
 		"direccion": "Peña N°615",
 		"comuna": "Talca",
 		"region": "Región del Maule",
-		"horario": "10:00 a 20:30 hrs"
+		"horario": "10:00 a 20:30 hrs",
 		"buscar": "Uno norte N°1485, Talca, Región del Maule", 
 		"Latitud":-35.4268481,
 		"Longitud":-71.65561889999998,
@@ -669,7 +669,7 @@ var sucursales =[
 		"direccion":"Av. Frei Montalva N°1110",
 		"comuna": "Punta Arenas",
 		"region": "Región de Magallanes",
-		"horario": "11:00 a 21:00 hrs"
+		"horario": "11:00 a 21:00 hrs",
 		"buscar": "Av. Frei Montalva, Punta Arenas, Región de magallanes", 
 		"Latitud":-53.13351979999999,
 		"Longitud":-70.9110349,
