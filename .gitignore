@@ -1,0 +1,5 @@
+node_modules/
+
+# Dist folders gererated by gulp
+# dist/js/*
+# dist/css/*

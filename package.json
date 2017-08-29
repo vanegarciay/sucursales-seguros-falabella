@@ -1,0 +1,31 @@
+{
+  "name": "sucursales-seguros-falabella",
+  "version": "1.0.0",
+  "description": "Desafio talent fest",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanegarciay/sucursales-seguros-falabella.git"
+  },
+  "author": "Fallabellas_coders",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanegarciay/sucursales-seguros-falabella/issues"
+  },
+  "homepage": "https://github.com/vanegarciay/sucursales-seguros-falabella#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^4.3.11"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  }
+}
