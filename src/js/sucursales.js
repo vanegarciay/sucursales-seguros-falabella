@@ -561,6 +561,6 @@ var sucursales =[
 		"buscar": "Av. Frei Montalva, Punta Arenas, Región de magallanes", 
 		"title": " "
 	}
-]
+];
 
 
