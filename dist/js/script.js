@@ -12631,6 +12631,7 @@ if (typeof jQuery === 'undefined') {
 }(jQuery);
 
 function initMap(){
+<<<<<<< HEAD
     $(document).ready(function() {
     	var map = new google.maps.Map(document.getElementById("map"), {
     		zoom: 8,
@@ -12646,6 +12647,15 @@ function initMap(){
 
 });
 
+=======
+	var map = new google.maps.Map(document.getElementById("map"), {
+		zoom: 5, 
+		center:{lat:-33.4430, lng: -70.6619},
+		mapTypeControl: false,
+		zoomControl: false,
+		streetViewControl:false
+	});
+>>>>>>> 253b3c6184a399c104f9673ec67921c2757f8fd1
 }
 var sucursales =[
 	{
@@ -13210,6 +13220,10 @@ var sucursales =[
 		"buscar": "Av. Frei Montalva, Punta Arenas, Región de magallanes", 
 		"title": " "
 	}
+<<<<<<< HEAD
 ];
+=======
+]
+>>>>>>> 253b3c6184a399c104f9673ec67921c2757f8fd1
 
 
