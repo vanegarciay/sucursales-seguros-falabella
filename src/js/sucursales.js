@@ -7,7 +7,7 @@ var sucursales =[
 		"region": "Región de Tarapacá",
 		"horario": "11:00 a 21:30 hrs",
 		"buscar": "Héroes de la concepción N° 2555, Iquique, Región de Tarapacá",
-		"title": ""
+		"title": 
 	},
 	{	
 		"id": 2,
@@ -17,7 +17,7 @@ var sucursales =[
 		"region": "Región de Antofagasta",
 		"horario": "11:00 a 21:00 hrs",
 		"buscar": "Balmaceda N° 2355, Antofagasta, Región de Antofagasta",
-		"title": ""
+		"title": 
 
 	},
 	{
@@ -28,7 +28,7 @@ var sucursales =[
 		"region": "Región de Antofagasta",
 		"horario": "11:00 a 21:00 hrs",
 		"buscar": "Balmaceda N° 3401, Calama, Región de Antofagasta",
-		"title":""
+		"title";
 	},
 	{
 		"id":4,
