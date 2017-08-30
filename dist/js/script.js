@@ -12691,9 +12691,13 @@ $(document).ready(function(){
 		}
 		else if(($("#option_region").val())=== "Región de Valparaíso"){
 			console.log(sucursales[6].nombre);
-			console.log(sucursales[7].nombre);
+			console.log(sucursales[7].nombre);			
+			console.log(sucursales[8].nombre);
+			console.log(sucursales[9].nombre);
+			console.log(sucursales[10].nombre);			
+			console.log(sucursales[11].nombre);
 
-			for(var i= 6; i<8;i++){
+			for(var i= 6; i<12;i++){
 				$("#sucursales-printed").append(`
 				<div class="cuadro-sucursal col-md-5 col-lg-5 col-xs-12 id=`+ sucursales[i].id +`">
 	                  <h4>`+ sucursales[i].nombre +`</h4>
@@ -12709,12 +12713,80 @@ $(document).ready(function(){
 	        	<select class="form-control" id="option_comuna">
 	            	<option value="" disabled selected>Buscar por comuna</option>          
 	            	<option value="La Calera">La Calera</option>
+	            	<option value="Quilpué">Quilpué</option>	            	
 	            	<option value="San Felipe">San Felipe</option>
 	            	<option value="Valparaíso">Valparaíso</option>
 	            	<option value="Viña del Mar">Viña del Mar</option>
 	        	</select>
 				`)
-		}		
+
+		}
+		else if(($("#option_region").val()) === "Región Metropolitana"){
+			console.log(sucursales[12].nombre);			
+			console.log(sucursales[42].nombre);
+
+
+			for(var i= 12; i<43;i++){
+				$("#sucursales-printed").append(`
+				<div class="cuadro-sucursal col-md-5 col-lg-5 col-xs-12 id=`+ sucursales[i].id +`">
+	                  <h4>`+ sucursales[i].nombre +`</h4>
+	                  <p>`+ sucursales[i].title +`</p>
+	                  <p>`+ sucursales[i].direccion +`</p>
+	                  <p>`+ sucursales[i].comuna +`, `+ sucursales[i].region +`</p>
+	                  <p><b>Horario:</b> `+ sucursales[i].horario +`</p>
+	            </div>
+				`)
+			}
+			$("#select-comuna").append(`
+	        	<label for="option_comuna">¿En cuál comuna buscas sucursal?</label>
+	        	<select class="form-control" id="option_comuna">
+	            	<option value="" disabled selected>Buscar por comuna</option>          
+	            	<option value="Cerrillos">Cerrillos</option>
+	            	<option value="Estación Central">Estación Central</option>	            	
+	            	<option value="Huechuraba">Huechuraba</option>
+	            	<option value="La Florida">La Florida</option>
+	            	<option value="La Reina">La Reina</option>
+	            	<option value="Las Condes">Las Condes</option>
+	            	<option value="Lo Barnechea">Lo Barnechea</option>
+	            	<option value="Maipú">Maipú</option> 
+	            	<option value="Ñuñoa">Ñuñoa</option>
+	            	<option value="Providencia">Providencia</option>
+	            	<option value="Puente Alto">Puente Alto</option>	            	
+	            	<option value="Quilicura">Quilicura</option>
+	            	<option value="San Miguel">San Miguel</option>
+	            	<option value="Santiago">Santiago</option>
+	            	<option value="San Bernardo">San Bernardo</option>      	         	      	           	
+	        	</select>
+				`);
+
+		}
+		else if(($("#option_region").val())==="Region de O'Higgins"){
+			console.log(sucursales[43].nombre)
+			$("#sucursales-printed").append(`
+			<div class="cuadro-sucursal col-md-5 col-lg-5 col-xs-12 id=`+ sucursales[43].id +`">
+                  <h4>`+ sucursales[43].nombre +`</h4>
+                  <p>`+ sucursales[43].title +`</p>
+                  <p>`+ sucursales[43].direccion +`</p>
+                  <p>`+ sucursales[43].comuna +`, `+ sucursales[43].region +`</p>
+                  <p><b>Horario:</b> `+ sucursales[43].horario +`</p>
+            </div>
+				`)			
+		}
+		else if(($("#option_region").val())=== "Región del Maule"){
+			console.log(sucursales[44].nombre);
+			console.log(sucursales[45].nombre);
+			for(var i= 44; i<46;i++){
+				$("#sucursales-printed").append(`
+				<div class="cuadro-sucursal col-md-5 col-lg-5 col-xs-12 id=`+ sucursales[i].id +`">
+	                  <h4>`+ sucursales[i].nombre +`</h4>
+	                  <p>`+ sucursales[i].title +`</p>
+	                  <p>`+ sucursales[i].direccion +`</p>
+	                  <p>`+ sucursales[i].comuna +`, `+ sucursales[i].region +`</p>
+	                  <p><b>Horario:</b> `+ sucursales[i].horario +`</p>
+	            </div>
+				`)
+			}
+		}			
 		else if(($("#option_region").val())=== "Región de Magallanes"){
 			console.log(sucursales[55].nombre)
 			$("#sucursales-printed").append(`
@@ -12727,6 +12799,40 @@ $(document).ready(function(){
             </div>
 				`)
 		}	
+	});
+	$("#option_comuna").change(function(){
+		alert("work in progress")
+		$("#sucursales-printed").empty();		
+		if(($("#option-comuna").val())==="La Calera"){
+			alert("wena")
+		}
+		else if(($("#option-comuna").val())==="Quilpué"){
+			alert("no")
+			$("#sucursales-printed").append(`
+			<div class="cuadro-sucursal col-md-5 col-lg-5 col-xs-12 id=`+ sucursales[11].id +`">
+              	<h4>`+ sucursales[11].nombre +`</h4>
+              	<p>`+ sucursales[11].title +`</p>
+              	<p>`+ sucursales[11].direccion +`</p>
+              	<p>`+ sucursales[11].comuna +`, `+ sucursales[11].region +`</p>
+              	<p><b>Horario:</b> `+ sucursales[11].horario +`</p>
+        	</div>
+			`)			
+		}
+		else if(($("#option_region").val()) ==="San Felipe"){
+			alert("work damn it")
+			$("#sucursales-printed").append(`
+			<div class="cuadro-sucursal col-md-5 col-lg-5 col-xs-12 id=`+ sucursales[10].id +`">
+              	<h4>`+ sucursales[10].nombre +`</h4>
+              	<p>`+ sucursales[10].title +`</p>
+              	<p>`+ sucursales[10].direccion +`</p>
+              	<p>`+ sucursales[10].comuna +`, `+ sucursales[10].region +`</p>
+              	<p><b>Horario:</b> `+ sucursales[10].horario +`</p>
+        	</div>
+			`)			
+		}
+		else{
+			alert("none")
+		}		
 	});
 });
 function initMap(){
@@ -12976,7 +13082,7 @@ var sucursales =[
 		"id": 12,
 		"nombre":"Sucursal Quilpué",
 		"direccion":"Portales N°822 2° Piso",
-		"comuna": "San Felipe",
+		"comuna": "Quilpué",
 		"region": "Región de Valparaíso",
 		"horario": "10:30 a 21:00 hrs",
 		"buscar": "Portales N°822, San Felipe, Región de Valparaíso", 
