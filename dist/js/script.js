@@ -12786,7 +12786,64 @@ $(document).ready(function(){
 	            </div>
 				`)
 			}
-		}			
+		}
+		else if(($("#option_region").val())=== "Región del Biobío"){
+			console.log(sucursales[46].nombre);
+			console.log(sucursales[49].nombre);
+			for(var i= 46; i<50;i++){
+				$("#sucursales-printed").append(`
+				<div class="cuadro-sucursal col-md-5 col-lg-5 col-xs-12 id=`+ sucursales[i].id +`">
+	                  <h4>`+ sucursales[i].nombre +`</h4>
+	                  <p>`+ sucursales[i].title +`</p>
+	                  <p>`+ sucursales[i].direccion +`</p>
+	                  <p>`+ sucursales[i].comuna +`, `+ sucursales[i].region +`</p>
+	                  <p><b>Horario:</b> `+ sucursales[i].horario +`</p>
+	            </div>
+				`)
+			}
+		}
+		else if(($("#option_region").val())==="Región de la Araucanía"){
+			console.log(sucursales[50].nombre)
+			$("#sucursales-printed").append(`
+			<div class="cuadro-sucursal col-md-5 col-lg-5 col-xs-12 id=`+ sucursales[50].id +`">
+                  <h4>`+ sucursales[50].nombre +`</h4>
+                  <p>`+ sucursales[50].title +`</p>
+                  <p>`+ sucursales[50].direccion +`</p>
+                  <p>`+ sucursales[50].comuna +`, `+ sucursales[50].region +`</p>
+                  <p><b>Horario:</b> `+ sucursales[50].horario +`</p>
+            </div>
+				`)			
+		}
+		else if(($("#option_region").val())=== "Región de los Ríos"){
+			console.log(sucursales[51].nombre);
+			console.log(sucursales[52].nombre);
+			for(var i= 51; i<53;i++){
+				$("#sucursales-printed").append(`
+				<div class="cuadro-sucursal col-md-5 col-lg-5 col-xs-12 id=`+ sucursales[i].id +`">
+	                  <h4>`+ sucursales[i].nombre +`</h4>
+	                  <p>`+ sucursales[i].title +`</p>
+	                  <p>`+ sucursales[i].direccion +`</p>
+	                  <p>`+ sucursales[i].comuna +`, `+ sucursales[i].region +`</p>
+	                  <p><b>Horario:</b> `+ sucursales[i].horario +`</p>
+	            </div>
+				`)
+			}
+		}									
+		else if(($("#option_region").val())=== "Región de los Lagos"){
+			console.log(sucursales[53].nombre);
+			console.log(sucursales[54].nombre);
+			for(var i= 53; i<55;i++){
+				$("#sucursales-printed").append(`
+				<div class="cuadro-sucursal col-md-5 col-lg-5 col-xs-12 id=`+ sucursales[i].id +`">
+	                  <h4>`+ sucursales[i].nombre +`</h4>
+	                  <p>`+ sucursales[i].title +`</p>
+	                  <p>`+ sucursales[i].direccion +`</p>
+	                  <p>`+ sucursales[i].comuna +`, `+ sucursales[i].region +`</p>
+	                  <p><b>Horario:</b> `+ sucursales[i].horario +`</p>
+	            </div>
+				`)
+			}
+		}											
 		else if(($("#option_region").val())=== "Región de Magallanes"){
 			console.log(sucursales[55].nombre)
 			$("#sucursales-printed").append(`
