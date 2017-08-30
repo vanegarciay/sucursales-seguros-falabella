@@ -26,15 +26,17 @@ function initMap(){
             console.log(lat);
             console.log(lon);
             $("#sucursales-printed").append(
-            `<div class="cuadro-sucursal col-md-5 col-lg-5 col-xs-12">
+            `<div class="cuadro-sucursal col-md-5 col-lg-5 col-xs-12 id=`+ element.id +`">
                   <h4>`+ element.nombre +`</h4>
                   <p>`+ element.title +`</p>
                   <p>`+ element.direccion +`</p>
                   <p>`+ element.comuna +`, `+ element.region +`</p>
                   <p><b>Horario:</b> `+ element.horario +`</p>
             </div>`);
+            
             marcarSucursal(lat, lon);
             });
+
         }
 
         function marcarSucursal(lat, lon) {
