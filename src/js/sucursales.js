@@ -136,7 +136,7 @@ var sucursales =[
 		"id": 12,
 		"nombre":"Sucursal Quilpué",
 		"direccion":"Portales N°822 2° Piso",
-		"comuna": "San Felipe",
+		"comuna": "Quilpué",
 		"region": "Región de Valparaíso",
 		"horario": "10:30 a 21:00 hrs",
 		"buscar": "Portales N°822, San Felipe, Región de Valparaíso", 
