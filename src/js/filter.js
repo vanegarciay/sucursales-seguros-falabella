@@ -25,6 +25,18 @@ $(document).ready(function(){
                   <p><b>Horario:</b> `+ sucursales[3].horario +`</p>
             </div>
 				`)
+		}		
+		else if(($("#option_region").val())=== "Región de Atacama"){
+			console.log(sucursales[3].nombre)
+			$("#sucursales-printed").append(`
+			<div class="cuadro-sucursal col-md-5 col-lg-5 col-xs-12 id=`+ sucursales[3].id +`">
+                  <h4>`+ sucursales[3].nombre +`</h4>
+                  <p>`+ sucursales[3].title +`</p>
+                  <p>`+ sucursales[3].direccion +`</p>
+                  <p>`+ sucursales[3].comuna +`, `+ sucursales[3].region +`</p>
+                  <p><b>Horario:</b> `+ sucursales[3].horario +`</p>
+            </div>
+				`)
 		}
 		else if(($("#option_region").val())=== "Región de Magallanes"){
 			console.log(sucursales[55].nombre)
