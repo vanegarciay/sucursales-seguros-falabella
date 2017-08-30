@@ -18,6 +18,12 @@ body {
     }
   }	
 }
+.sin-boton{
+	background-color: transparent !important;
+}
+button.sin-boton:hover {
+    color:#30B131;
+}
 .btn-verde{
 	-webkit-appearance: none;
 	background-color: #eee;
@@ -27,8 +33,6 @@ body {
 	color: #444;
 	cursor: pointer;
 	display: inline-block;
-	font-size: 1rem;
-	font: inherit;
 	font-weight: 300;
 	line-height: 30px;
 	margin: 0;
@@ -48,23 +52,21 @@ body {
 }
 	a.btn-verde{
 		text-decoration: none;
+
 	}
 .borde-verde{
 	background-color: #fff;
 	border: 2px solid #30b131;
-	border-radius: 5px !important;
+	border-radius: 3px !important;
 	height: 38px;
 	padding: 6px 15px;
+    margin-left: 44px;
 }
-.border-verde:hover{
+.border-verde:hover {
 	background-color: #2b9d2b;
 	color: #444;
 }
 .input-group{
 	padding: 20px 0px 20px 0px;
 }
-	.btn-verde-group{
-		background-color: #30b131;
-		color: #fff;
-		height: 38px;
-	}
+
