@@ -2,9 +2,10 @@
 
 
 ```
- Framewrok:
+ Framework:
  * Kanban con algunos aspectos de XP(Para las historias de usuario).
- * Scrum (Reuniones tipo Daily, Restrospectivas, MVP).
+ * Scrum (Reuniones tipo Daily, Restrospectivas).
+ * Entregas por MVP.
 ```
 
 # Requerimientos Técnicos
