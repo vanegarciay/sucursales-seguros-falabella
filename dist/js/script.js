@@ -12658,11 +12658,7 @@ var sucursales =[
 		"buscar": "Héroes de la concepción N° 2555, Iquique, Región de Tarapacá",
 		"latitud": -20.2328758,
 		"longitud": -70.14290879999999,
-<<<<<<< HEAD:api/sucursales.js
-		"title": 
-=======
 		"title": ""
->>>>>>> 904ecbb7a24bdfc59aba41c2a598e739d4f16176:src/js/sucursales.js
 	},
 	{	
 		"id": 2,
@@ -12674,12 +12670,7 @@ var sucursales =[
 		"buscar": "Balmaceda N° 2355, Antofagasta, Región de Antofagasta",
 		"latitud": -23.6460605,
 		"longitud": -70.400822,
-<<<<<<< HEAD:api/sucursales.js
-		"title": 
-=======
 		"title": ""
->>>>>>> 904ecbb7a24bdfc59aba41c2a598e739d4f16176:src/js/sucursales.js
-
 	},
 	{
 		"id": 3,
@@ -12691,11 +12682,7 @@ var sucursales =[
 		"buscar": "Balmaceda N° 3401, Calama, Región de Antofagasta",
 		"latitud": -22.4467879,
 		"longitud": -68.91968739999999,
-<<<<<<< HEAD:api/sucursales.js
-		"title";
-=======
 		"title":""
->>>>>>> 904ecbb7a24bdfc59aba41c2a598e739d4f16176:src/js/sucursales.js
 	},
 	{
 		"id":4,
@@ -12719,11 +12706,7 @@ var sucursales =[
 		"buscar": "Prolongación Benavente 1075, Ovalle, Región de Coquimbo",
 		"latitud": -30.5975125,
 		"longitud": -71.18591950000001,
-<<<<<<< HEAD:api/sucursales.js
-		"title": 
-=======
 		"title": ""
->>>>>>> 904ecbb7a24bdfc59aba41c2a598e739d4f16176:src/js/sucursales.js
 	},
 	{
 		"id": 6,
@@ -12735,11 +12718,7 @@ var sucursales =[
 		"buscar": "Alberto Solari N°1400, La Serena, Región de Coquimbo",
 		"latitud": -29.9125086,
 		"longitud": -71.25864680000001,
-<<<<<<< HEAD:api/sucursales.js
-		"title": 
-=======
 		"title": ""
->>>>>>> 904ecbb7a24bdfc59aba41c2a598e739d4f16176:src/js/sucursales.js
 	},
 	{
 		"id": 7,
@@ -12748,17 +12727,10 @@ var sucursales =[
 		"comuna": "Viña del Mar",
 		"region": "Región de Valparaiso",
 		"horario": "10:30 a 21:00 hrs",
-<<<<<<< HEAD:api/sucursales.js
-		"lugar": "Sucre N°250, Viña del Mar, Región de Valparaíso",
-		"latitud": -33.0256822,
-		"longitud": -71.55236919999999,
-		"title": 
-=======
 		"buscar": "Sucre N°250, Viña del Mar, Región de Valparaíso",
 		"latitud": -33.0256822,
 		"longitud": -71.55236919999999,
 		"title":""
->>>>>>> 904ecbb7a24bdfc59aba41c2a598e739d4f16176:src/js/sucursales.js
 	},
 	{
 		"id": 8,
@@ -12767,11 +12739,7 @@ var sucursales =[
 		"comuna": "Viña del Mar",
 		"region": "Región de Valparaiso",
 		"horario": "10:30 a 21:00 hrs",
-<<<<<<< HEAD:api/sucursales.js
-		"lugar": "Av. Benidorm N°961, Viña del Mar, Región de Valparaíso",
-=======
 		"buscar": "Av. Benidorm 961, Viña del Mar, Región de Valparaíso",
->>>>>>> 904ecbb7a24bdfc59aba41c2a598e739d4f16176:src/js/sucursales.js
 		"latitud": -33.0082898,
 		"longitud": -71.5464288,
 		"title":"Mall Espacio Urbano 2° Piso"
@@ -12783,17 +12751,10 @@ var sucursales =[
 		"comuna": "Valparaíso",
 		"region": "Región de Valparaíso",
 		"horario": "11:00 a 21:00 hrs",
-<<<<<<< HEAD:api/sucursales.js
-		"lugar": "Independencia 1806, Valparaíso, Región de Valparaíso",
-		"latitud": -33.0476514,
-		"longitud": -71.61826489999999,
-		"title": 
-=======
 		"buscar": "Independencia N°1806, Valparaíso, Región de Valparaíso",
 		"latitud": -33.0476514,
 		"longitud": -71.61826489999999,
 		"title": ""
->>>>>>> 904ecbb7a24bdfc59aba41c2a598e739d4f16176:src/js/sucursales.js
 	},
 	{
 		"id": 10,
@@ -12802,17 +12763,10 @@ var sucursales =[
 		"comuna": "La Calera",
 		"region": "Región de Valparaíso",
 		"horario": "11:00 a 21:00 hrs",
-<<<<<<< HEAD:api/sucursales.js
-		"lugar": "Prolongacion J.J.Pérez N°12010, La Calera, Región de Valparaíso";
-		"latitud": -32.790517,
-		"longitud": -71.19149199999998,
-		"title":
-=======
 		"buscar": "Prolongacion J.J.Pérez N°12010, La Calera, Región de Valparaíso",
 		"latitud": -32.790517,
 		"longitud": -71.19149199999998,
 		"title":""
->>>>>>> 904ecbb7a24bdfc59aba41c2a598e739d4f16176:src/js/sucursales.js
 	},
 	{
 		"id": 11,
@@ -12821,11 +12775,7 @@ var sucursales =[
 		"comuna": "San Felipe",
 		"region": "Región de Valparaíso",
 		"horario": "10:30 a 21:00 hrs",
-<<<<<<< HEAD:api/sucursales.js
-		"lugar": "Av. Bernardo O'Higgins N°1150, San Felipe, Región de Valparaíso", 
-=======
 		"buscar": "Av. Bernardo O'Higgins N°1150, San Felipe, Región de Valparaíso", 
->>>>>>> 904ecbb7a24bdfc59aba41c2a598e739d4f16176:src/js/sucursales.js
 		"latitud": -32.756596,
 		"longitud": -70.72241700000001,
 		"title": "Interior Falabella",
@@ -12840,11 +12790,7 @@ var sucursales =[
 		"buscar": "Portales N°822, San Felipe, Región de Valparaíso", 
 		"latitud": -32.756596,
 		"longitud": -70.72241700000001,
-<<<<<<< HEAD:api/sucursales.js
-		"title": 
-=======
 		"title": ""
->>>>>>> 904ecbb7a24bdfc59aba41c2a598e739d4f16176:src/js/sucursales.js
 	},
 	{
 		"id": 13,
@@ -12926,11 +12872,7 @@ var sucursales =[
 		"comuna": "Puente Alto",
 		"region": "Región Metropolitana",
 		"horario": "9:00 a 21:00 hrs",
-<<<<<<< HEAD:api/sucursales.js
-		"buscar": "Av. Concha y Toro N°1315, Puente Alto, Región Metropolitana", 
-=======
 		"buscar": "Av. Concha y Toro N°", 
->>>>>>> 904ecbb7a24bdfc59aba41c2a598e739d4f16176:src/js/sucursales.js
 		"latitud": -33.5968026,
 		"longitud": -70.5786766,
 		"title": "Interior Homencenter Mall Plaza Norte"
@@ -12992,11 +12934,7 @@ var sucursales =[
 		"horario": "11:00 a 21:00 hrs",
 		"buscar": "Av. Kennedy N°9001, Las Condes, Región Metropolitana", 
 		"latitud": -33.3908732,
-<<<<<<< HEAD:api/sucursales.js
-		"longitud": -70.54628350000002
-=======
 		"longitud": -70.54628350000002,
->>>>>>> 904ecbb7a24bdfc59aba41c2a598e739d4f16176:src/js/sucursales.js
 		"title": "Interior Alto Las Condes"
 	},
 	{
@@ -13042,15 +12980,9 @@ var sucursales =[
 		"comuna": "Providencia",
 		"region": "Región Metropolitana",
 		"horario": "11:00 a 21:00 hrs",
-<<<<<<< HEAD:api/sucursales.js
-		"buscar": "Av. Nueva de Lyon, Providencia, Región Metropolitana", 
-		"latitud": -33.4209867
-		"longitud": -70.61054680000001
-=======
 		"buscar": "Av. Nueva de Lyon, Providencia, Región Metropolitana",
 		"latitud": -33.4209867,
 		"longitud": -70.61054680000001,
->>>>>>> 904ecbb7a24bdfc59aba41c2a598e739d4f16176:src/js/sucursales.js
 		"title": ""
 	},
 {
