@@ -12638,51 +12638,46 @@ function initMap(){
             center:{lat:-33.4430, lng: -70.6619},
             mapTypeControl: false,
             zoomControl: true,
-            streetViewControl:false
+            streetViewControl: false
         });
 
-
-
         marcarSucursalesEnMapa(sucursales);
+        listarSucursales(sucursales);
 
-            /* Mi ubicación actual */
-            $( "#encuentrame" ).click(function() {
-                buscarMiUbicacion(map);
-            });
+        /* Mi ubicación actual */
+        $( "#encuentrame" ).click(function() {
+            buscarMiUbicacion(map);
+        });
 
         function marcarSucursalesEnMapa(sucursales) {
+            sucursales.forEach(function(sucursal){
+                var lat = sucursal.latitud;
+                var lon = sucursal.longitud;
 
-            sucursales.forEach(function(element){
-                var lat = element.latitud;
-                var lon = element.longitud;
-            console.log(lat);
-            console.log(lon);
-            $("#sucursales-printed").append(
-            `<div class="cuadro-sucursal col-md-5 col-lg-5 col-xs-12">
-                  <h4>`+ element.nombre +`</h4>
-                  <p>`+ element.title +`</p>
-                  <p>`+ element.direccion +`</p>
-                  <p>`+ element.comuna +`, `+ element.region +`</p>
-                  <p><b>Horario:</b> `+ element.horario +`</p>
-            </div>`);
-            marcarSucursal(lat, lon);
+                marcarSucursal(sucursal);
             });
         }
 
-        function marcarSucursal(sucursales, lat, lon,map) {
-            
-            sucursales.forEach(function(element){
-                var contentString = $("#content-info-window").append(`<h1>`+ element.nombre +`</h1>`)
-                var marker = crearMarcador(map);
-                var infowindow = new google.maps.InfoWindow({
-                content: contentString
-                });
-                marker.addListener('click', function() {
-                    infowindow.open(map, marker);
-                  });
+        function marcarSucursal(sucursal) {
+            var marker = crearMarcador(map);
 
-                marker.setPosition(new google.maps.LatLng(lat,lon));
-                marker.setVisible(true);
+            marker.setPosition(new google.maps.LatLng(sucursal.latitud,sucursal.longitud));
+            marker.setVisible(true);
+
+            var contentString = `<div>
+                          <h4>`+ sucursal.nombre +`</h4>
+                          <p>`+ sucursal.title +`</p>
+                          <p>`+ sucursal.direccion +`</p>
+                          <p>`+ sucursal.comuna +`, `+ sucursal.region +`</p>
+                          <p><b>Horario:</b> `+ sucursal.horario +`</p>
+                    </div>`;
+
+            var infowindow = new google.maps.InfoWindow({
+                content: contentString
+            });
+
+            marker.addListener('click', function() {
+                infowindow.open(map, marker);
             });
         }
 
@@ -12699,38 +12694,49 @@ function initMap(){
                 map: map,
                 animation: google.maps.Animation.DROP,
                 icon: icono,
+                title: 'Prueba de titulo',
                 anchorPoint: new google.maps.Point(0, -29)
             });
 
             return marker;
         }
 
-    function buscarMiUbicacion(map) {
-        if(navigator.geolocation){
-            navigator.geolocation.getCurrentPosition(marcarUbicacionAutomatica,funcionError);
+        function listarSucursales(sucursales) {
+            sucursales.forEach(function(element){
+                $("#sucursales-printed").append(
+                    `<div class="cuadro-sucursal col-md-5 col-lg-5 col-xs-12">
+                          <h4>`+ element.nombre +`</h4>
+                          <p>`+ element.title +`</p>
+                          <p>`+ element.direccion +`</p>
+                          <p>`+ element.comuna +`, `+ element.region +`</p>
+                          <p><b>Horario:</b> `+ element.horario +`</p>
+                    </div>`
+                );
+            });
         }
-    }
 
-    var marcarUbicacionAutomatica = function(posicion) {
-    var latitud,longitud;
-    latitud = posicion.coords.latitude;
-    longitud = posicion.coords.longitude;
+        function buscarMiUbicacion(map) {
+            if(navigator.geolocation){
+                navigator.geolocation.getCurrentPosition(centrarUbicacion, errorCentrarUbicacion);
+            } else {
+                console.log("La geolocalización no es soportada por este navegador.");
+            }
+        }
 
-    marker.setPosition(new google.maps.LatLng(latitud,longitud));
-    map.setCenter({lat:latitud,lng:longitud});
-    map.setZoom(17);
+        var centrarUbicacion = function(posicion) {
+            var latitud,longitud;
+            latitud = posicion.coords.latitude;
+            longitud = posicion.coords.longitude;
 
-    marker.setVisible(true);
+            map.setCenter({lat:latitud,lng:longitud});
+            map.setZoom(17);
+        }
 
-    detalleUbicacionOrigen.setContent('<div><strong>Mi ubicación actual</strong><br>');
-    detalleUbicacionOrigen.open(map, marker);
-    }
+        var errorCentrarUbicacion = function(error) {
+            alert("No podemos encontrar tu ubicación");
+        }
 
-    var funcionError = function(error) {
-    alert("Tenemos un problema para encontrar tu ubicación");
-    }
-
-});
+    });
 
 }
 var sucursales =[
