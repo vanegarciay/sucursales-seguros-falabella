@@ -12641,20 +12641,7 @@ function initMap(){
     		streetViewControl:false
     	});
 
-<<<<<<< HEAD
-        sucursales.forEach(function(element){
-            console.log(element.nombre);
 
-            $("#sucursales-printed").append(
-            `<div class="cuadro-sucursal col-md-5 col-lg-5 col-xs-12">
-                  <h4>`+ element.nombre +`</h4>
-                  <p>`+ element.title +`</p>
-                  <p>`+ element.direccion +`</p>
-                  <p>`+ element.comuna +`, `+ element.region +`</p>
-                  <p>Horario: `+ element.horario +`</p>
-            </div>`);
-        });
-=======
         marcarSucursalesEnMapa(sucursales);
 
             /* Mi ubicación actual */
@@ -12669,6 +12656,14 @@ function initMap(){
                 var lon = element.longitud;
             console.log(lat);
             console.log(lon);
+            $("#sucursales-printed").append(
+            `<div class="cuadro-sucursal col-md-5 col-lg-5 col-xs-12">
+                  <h4>`+ element.nombre +`</h4>
+                  <p>`+ element.title +`</p>
+                  <p>`+ element.direccion +`</p>
+                  <p>`+ element.comuna +`, `+ element.region +`</p>
+                  <p><b>Horario:</b> `+ element.horario +`</p>
+            </div>`);
             marcarSucursal(lat, lon);
             });
         }
@@ -12723,7 +12718,6 @@ function initMap(){
     var funcionError = function(error) {
     alert("Tenemos un problema para encontrar tu ubicación");
     }
->>>>>>> c3a9cef311fbaea20c2ff838bec3f5574f317b0c
 
 });
 

@@ -11,28 +11,6 @@
     <link rel="icon" type="image/x-icon" href="src/img/favicon.ico">
 </head>
 <body>
-  <div class="row">
-    <div class="col-lg-12 col-md-12 col-xs-12">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="input-group">
-              <a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> Encuentrame...</a>
-            </div><!-- /input-group -->
-        </div><!-- /.col-lg-6 -->
-        <div class="col-lg-6">
-          <div class="input-group">
-              <input type="text" id="origin" class="form-control" placeholder="Buscar o Ingresa tu Dirección"> <!--Boton de search-->
-                <span class="input-group-btn">
-                  <button class="btn btn-default" type="button">Buscar!</button>
-                </span>
-          </div><!-- /input-group -->
-        </div><!-- /.col-lg-6 -->        
-      </div>
-    </div>
-  </div>
-  <div class="row">
-    
-  </div>
 
 	<div class="container">
 		<div class="row">
@@ -50,27 +28,24 @@
     			</div><!-- /input-group -->
   			</div><!-- /.col-lg-6 -->
 		</div><!-- /.row -->
-		<div class="row">
-		  <div class="col-md-4 col-lg-4">
-		    	<!-- filtros -->
-		  </div>
-		  <div class="col-md-4 col-lg-4">
-		    <div class="container">
-			    <div class="row">
-			    	<div class="col-md-10 col-lg-12">
-				    	<div id="map"></div>
-			    	</div>
-
-			    </div>
-          <div class="row">
-            <div class="container" id="sucursales-printed">
-              <!-- Aquí imprimimos las sucursales -->                
+    
+    <div class="row">
+      <div class="col-md-4 col-lg-4">
+        <!-- filtros -->
+      </div>
+      <div class="col-md-8 col-lg-8">
+        <div class="row">
+         <div class="col-md-12 col-lg-12">
+                <div id="map"></div>
             </div>
-
-          </div>            
-		    </div>
-		  </div>
-		</div>
+        </div>
+        <div class="row">
+          <div id="sucursales-printed">
+            <!-- Aquí imprimimos las sucursales -->                
+          </div>
+        </div>            
+      </div>
+    </div>
 		
 	</div>
 
