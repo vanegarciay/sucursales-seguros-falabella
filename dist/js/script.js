@@ -12630,6 +12630,16 @@ if (typeof jQuery === 'undefined') {
 
 }(jQuery);
 
+$(document).ready(function(){
+	$("#option_region").change(function(){
+		if(($("#option_region").val())=="Región de Tarapacá"){
+			if((($(".cuadro-sucursal")).is("#1"))=== false){
+				$(".cuadro-sucursal").addClass("hide");
+			}
+
+		}
+	});
+});
 function initMap(){
     $(document).ready(function() {
         
@@ -12657,7 +12667,7 @@ function initMap(){
             console.log(lat);
             console.log(lon);
             $("#sucursales-printed").append(
-            `<div class="cuadro-sucursal col-md-5 col-lg-5 col-xs-12">
+            `<div class="cuadro-sucursal col-md-5 col-lg-5 col-xs-12 id=`+ element.id +`">
                   <h4>`+ element.nombre +`</h4>
                   <p>`+ element.title +`</p>
                   <p>`+ element.direccion +`</p>
@@ -12666,6 +12676,7 @@ function initMap(){
             </div>`);
             marcarSucursal(lat, lon);
             });
+            
         }
 
         function marcarSucursal(lat, lon) {
@@ -12746,6 +12757,7 @@ var sucursales =[
 		"latitud": -23.6460605,
 		"longitud": -70.400822,
 		"title": ""
+
 	},
 	{
 		"id": 3,
@@ -12800,7 +12812,7 @@ var sucursales =[
 		"nombre":"Sucursal Viña del Mar",
 		"direccion":"Sucre N°250",
 		"comuna": "Viña del Mar",
-		"region": "Región de Valparaiso",
+		"region": "Región de Valparaíso",
 		"horario": "10:30 a 21:00 hrs",
 		"buscar": "Sucre N°250, Viña del Mar, Región de Valparaíso",
 		"latitud": -33.0256822,
@@ -12812,7 +12824,7 @@ var sucursales =[
 		"nombre":"Sucursal Viña del Mar Express",
 		"direccion":"Av. Benidorm 961",
 		"comuna": "Viña del Mar",
-		"region": "Región de Valparaiso",
+		"region": "Región de Valparaíso",
 		"horario": "10:30 a 21:00 hrs",
 		"buscar": "Av. Benidorm 961, Viña del Mar, Región de Valparaíso",
 		"latitud": -33.0082898,
@@ -13230,18 +13242,6 @@ var sucursales =[
 	},
 	{
 		"id": 43,
-		"nombre":"Sucursal Rancagua",
-		"direccion":"Sarguento Cuevas N°405",
-		"comuna": "Rancagua",
-		"region": "Región de O'Higgins",
-		"horario": "10:30 a 21:00 hrs",
-		"buscar": "Sarguento Cuevas N°405, Rancagua ,Región de O'Higgins", 
-		"Latitud":-33.4615572,
-		"Longitud":-70.63315890000001,
-		"title": " "
-	},
-	{
-		"id": 44,
 		"nombre":"Sucursal San Fernando",
 		"direccion":"Av. Bernardo O'Higgins N°701",
 		"comuna": "San fernando",
@@ -13252,6 +13252,18 @@ var sucursales =[
 		"Longitud":-70.72920199999999,
 		"title": " "
 	},
+	{
+		"id": 44,
+		"nombre":"Sucursal Rancagua",
+		"direccion":"Sarguento Cuevas N°405",
+		"comuna": "Rancagua",
+		"region": "Región de O'Higgins",
+		"horario": "10:30 a 21:00 hrs",
+		"buscar": "Sarguento Cuevas N°405, Rancagua ,Región de O'Higgins", 
+		"Latitud":-33.4615572,
+		"Longitud":-70.63315890000001,
+		"title": " "
+	},	
 	{
 		"id": 45,
 		"nombre":"Sucursal Curicó",
@@ -13328,18 +13340,6 @@ var sucursales =[
 	},
 	{
 		"id": 51,
-		"nombre":"Sucursal Los Angeles",
-		"direccion":"Valdivia N°472",
-		"comuna": "Valdivia",
-		"region": "Región de los Ríos",
-		"horario": "10:00 a 21:00 hrs",
-		"buscar": "Valdivia N°472, Valdivia, Región de los Ríos", 
-		"Latitud":-39.8289094,
-		"Longitud":-73.20711240000003,
-		"title": " "
-	},
-	{
-		"id": 52,
 		"nombre":"Sucursal Temuco",
 		"direccion":"Prat N°570",
 		"comuna": "Temuco",
@@ -13348,6 +13348,18 @@ var sucursales =[
 		"buscar": "Prat N°570, Temuco, Región de la Araucanía", 
 		"Latitud":-38.7446848,
 		"Longitud":-72.58974660000001,
+		"title": " "
+	},	
+	{
+		"id": 52,
+		"nombre":"Sucursal Los Angeles",
+		"direccion":"Valdivia N°472",
+		"comuna": "Valdivia",
+		"region": "Región de los Ríos",
+		"horario": "10:00 a 21:00 hrs",
+		"buscar": "Valdivia N°472, Valdivia, Región de los Ríos", 
+		"Latitud":-39.8289094,
+		"Longitud":-73.20711240000003,
 		"title": " "
 	},
 	{
