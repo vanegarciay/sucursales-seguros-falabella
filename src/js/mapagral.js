@@ -135,7 +135,7 @@ function initMap(){
                 map.setZoom(8);
             }
 
-            marker.setPosition(place.geometry.location);
+            /*marker.setPosition(place.geometry.location);
             marker.setVisible(true);
 
             var address = '';
@@ -148,7 +148,7 @@ function initMap(){
             }
 
             detalleUbicacion.setContent('<div><strong>' + place.name + '</strong><br>' + address);
-            detalleUbicacion.open(map, marker);
+            detalleUbicacion.open(map, marker);*/
         }
     });
 
