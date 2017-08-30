@@ -10,6 +10,7 @@ function initMap(){
         });
 
         marcarSucursalesEnMapa(sucursales);
+        inputAutocompletado(map);
         listarSucursales(sucursales);
 
         /* Mi ubicación actual */
@@ -104,6 +105,22 @@ function initMap(){
             alert("No podemos encontrar tu ubicación");
         }
 
+        function inputAutocompletado(map,marker) {
+            var inputBuscar = document.getElementById('origin');
+            var autocompleteBuscar = new google.maps.places.Autocomplete(inputBuscar);
+            autocompleteBuscar.bindTo('bounds', map);
+            marcarSucursal(sucursal);
+            var markerDestino = crearMarcador(map);
+
+            crearListener(autocompleteBuscar, marker, map);
+        }
+
+        function crearListener(autocomplete, marker) {
+            autocomplete.addListener('place_changed', function() {
+            var place = autocomplete.getPlace();
+            centrarUbicacion(...args);
+        });
+    }
     });
 
 }
