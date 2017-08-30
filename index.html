@@ -12,45 +12,26 @@
 </head>
 <body>
 
-	<div class="container">
-		<div class="row">
-  			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-    			<div class="input-group">
-      				<a class="btn-verde enlace" href="#" id="encuentrame"><i class="fa fa-map-marker" aria-hidden="true"></i> Encuentrame...</a>
-      			</div><!-- /input-group -->
-  			</div><!-- /.col-lg-6 -->
-  			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-  				<div class="input-group">
-      				<input type="text" id="origin" class="form-control borde-verde" placeholder="Buscar o Ingresa tu Dirección"> <!--Boton de search-->
-      					<span class="input-group-btn">
-        					<button class="btn btn-default btn-verde-group" type="button">Buscar !</button>
-      					</span>
-    			</div><!-- /input-group -->
-  			</div><!-- /.col-lg-6 -->
-		</div><!-- /.row -->
-
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <div class="input-group">
+              <a class="btn-verde enlace" href="#" id="encuentrame"><i class="fa fa-dot-circle-o" aria-hidden="true"></i> Encuentrame...</a>
+            </div><!-- /input-group -->
+        </div><!-- /.col-lg-6 -->
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <div class="input-group">
+              <input type="text" id="origin" class="form-control borde-verde" placeholder="Buscar o Ingresa tu Dirección"> <!--Boton de search-->
+                <span class="input-group-btn">
+                  <button class="btn btn-default btn-verde-group" type="button">Buscar</button>
+                </span>
+          </div><!-- /input-group -->
+        </div><!-- /.col-lg-6 -->
+    </div><!-- /.row -->
+    
     <div class="row">
       <div class="col-md-4 col-lg-4">
-        <h3>Filtrar resultados</h3>
-        <div class="form-group">
-          <label for="option_region">¿En qué región nos buscas?</label>
-          <select class="form-control" id="option_region">
-            <option value="" disabled selected>Buscar por región</option>          
-            <option value="Región de Tarapacá">Región de Tarapacá</option>
-            <option value="Región de Antofagasta">Región de Antofagasta</option>
-            <option value="Región de Atacama">Región de Atacama</option>
-            <option value="Región de Coquimbo">Región de Coquimbo</option>
-            <option value="Región de Valparaíso">Región de Valparaíso</option>
-            <option value="Región Metropolitana">Región Metropolitana</option>
-            <option value="Region de O'Higgins">Región de O'Higgins</option>
-            <option value="Región del Maule">Región del Maule</option>
-            <option value="Región del Biobío">Región del Biobío</option>
-            <option value="Región de los Ríos">Región de los Ríos</option>
-            <option value="Región de la Araucanía">Región de la Araucanía</option>
-            <option value="Región de los Lagos">Región de los Lagos</option>
-            <option value="Región de Magallanes">Región de Magallanes</option>                                                                               
-          </select>
-        </div>
+        <!-- filtros -->
       </div>
       <div class="col-md-8 col-lg-8">
         <div class="row">
@@ -60,16 +41,16 @@
         </div>
         <div class="row">
           <div id="sucursales-printed">
-            <!-- Aquí imprimimos las sucursales -->                
+            <!-- Aquí imprimimos las sucursales -->
           </div>
-        </div>            
+        </div>
       </div>
     </div>
-		
-	</div>
+    
+  </div>
 
     <script src="dist/js/script.js"></script>
-  	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHFTe2D5XG5p2vS1aBmyu_SDys4jMvMTo&callback=initMap" type="text/javascript"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHFTe2D5XG5p2vS1aBmyu_SDys4jMvMTo&callback=initMap" type="text/javascript"></script>
 
 </body>
 </html>
