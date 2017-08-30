@@ -12768,7 +12768,7 @@ function initMap(){
                 map.setZoom(8);
             }
 
-            marker.setPosition(place.geometry.location);
+            /*marker.setPosition(place.geometry.location);*/
             marker.setVisible(true);
 
             var address = '';
