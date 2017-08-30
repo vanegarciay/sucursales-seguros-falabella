@@ -37,11 +37,21 @@ function initMap(){
             });
         }
 
-        function marcarSucursal(lat, lon) {
-            var marker = crearMarcador(map);
+        function marcarSucursal(sucursales, lat, lon,map) {
+            
+            sucursales.forEach(function(element){
+                var contentString = $("#content-info-window").append(`<h1>`+ element.nombre +`</h1>`)
+                var marker = crearMarcador(map);
+                var infowindow = new google.maps.InfoWindow({
+                content: contentString
+                });
+                marker.addListener('click', function() {
+                    infowindow.open(map, marker);
+                  });
 
-            marker.setPosition(new google.maps.LatLng(lat,lon));
-            marker.setVisible(true);
+                marker.setPosition(new google.maps.LatLng(lat,lon));
+                marker.setVisible(true);
+            });
         }
 
         function crearMarcador(map) {
