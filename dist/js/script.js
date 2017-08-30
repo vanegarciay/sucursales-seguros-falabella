@@ -12649,6 +12649,7 @@ function initMap(){
                   <p>`+ element.title +`</p>
                   <p>`+ element.direccion +`</p>
                   <p>`+ element.comuna +`, `+ element.region +`</p>
+                  <p>Horario: `+ element.horario +`</p>
             </div>`);
         });
 
