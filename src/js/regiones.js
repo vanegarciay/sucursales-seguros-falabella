@@ -2,6 +2,68 @@ var regiones = [
 	{
 		"id": 57,
 		"region":"Región de Tarapacá",
+		"comunas":[{
+			"id": 70,
+			"comuna": "Viña del Mar",
+			"latitud": -33.0153481,
+			"longitud": -71.55002760000002
+
+		},
+		{
+			"id": 71,
+			"comuna": "Valparaíso",
+			"latitud": -33.047238,
+			"longitud": -71.61268849999999
+
+		},
+		{
+			"id": 72,
+			"comuna": "La Calera",
+			"latitud": -32.7877958,
+			"longitud": -71.20399629999997
+
+		},
+		{
+			"id": 73,
+			"comuna": "San Felipe",
+			"latitud": -32.75,
+			"longitud": -70.72081149999997
+
+		},
+		{
+			"id": 74,
+			"comuna": "Quilpué",
+			"latitud": -33.0482707,
+			"longitud": -71.4408752
+
+		},
+		{
+			"id": 75,
+			"comuna": "Quilicura",
+			"latitud": -33.0573408,
+			"longitud": -71.60442319999999
+
+		},
+		{
+			"id": 76,
+			"comuna": "La Reina",
+			"latitud": -33.4411269,
+			"longitud": -70.53405909999998
+
+		},
+		{
+			"id": 77,
+			"comuna": "Las Condes",
+			"latitud": -33.3989812,
+			"longitud": -70.5573124
+
+		},
+		{
+			"id": 78,
+			"comuna": "Maipu",
+			"latitud": -33.5209155,
+			"longitud": -70.76313349999998
+		}]
 		"latitud": -20.2328758,
 		"longitud": -70.14290879999999		
 	},
