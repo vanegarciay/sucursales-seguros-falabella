@@ -1,6 +1,7 @@
 $(document).ready(function(){
 	$("#option_region").change(function(){
 		$("#sucursales-printed").empty();
+		$("#select-comuna").empty();
 		var region =$("#option_region").val();
 		if(($("#option_region").val())=== "Región de Tarapacá"){
 			console.log(sucursales[0].nombre)
@@ -59,6 +60,7 @@ $(document).ready(function(){
 		else if(($("#option_region").val())=== "Región de Valparaíso"){
 			console.log(sucursales[6].nombre);
 			console.log(sucursales[7].nombre);
+
 			for(var i= 6; i<8;i++){
 				$("#sucursales-printed").append(`
 				<div class="cuadro-sucursal col-md-5 col-lg-5 col-xs-12 id=`+ sucursales[i].id +`">
@@ -70,6 +72,16 @@ $(document).ready(function(){
 	            </div>
 				`)
 			}
+			$("#select-comuna").append(`
+	        	<label for="option_comuna">¿En cuál comuna buscas sucursal?</label>
+	        	<select class="form-control" id="option_comuna">
+	            	<option value="" disabled selected>Buscar por comuna</option>          
+	            	<option value="La Calera">La Calera</option>
+	            	<option value="San Felipe">San Felipe</option>
+	            	<option value="Valparaíso">Valparaíso</option>
+	            	<option value="Viña del Mar">Viña del Mar</option>
+	        	</select>
+				`)
 		}		
 		else if(($("#option_region").val())=== "Región de Magallanes"){
 			console.log(sucursales[55].nombre)
