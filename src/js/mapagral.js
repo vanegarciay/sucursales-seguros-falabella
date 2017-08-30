@@ -11,6 +11,11 @@ function initMap(){
 
         marcarSucursalesEnMapa(sucursales);
 
+            /* Mi ubicación actual */
+            $( "#encuentrame" ).click(function() {
+                buscarMiUbicacion(map);
+            });
+
         function marcarSucursalesEnMapa(sucursales) {
 
             sucursales.forEach(function(element){
@@ -47,6 +52,31 @@ function initMap(){
 
             return marker;
         }
+
+    function buscarMiUbicacion(map) {
+        if(navigator.geolocation){
+            navigator.geolocation.getCurrentPosition(marcarUbicacionAutomatica,funcionError);
+        }
+    }
+
+    var marcarUbicacionAutomatica = function(posicion) {
+    var latitud,longitud;
+    latitud = posicion.coords.latitude;
+    longitud = posicion.coords.longitude;
+
+    marker.setPosition(new google.maps.LatLng(latitud,longitud));
+    map.setCenter({lat:latitud,lng:longitud});
+    map.setZoom(17);
+
+    marker.setVisible(true);
+
+    detalleUbicacionOrigen.setContent('<div><strong>Mi ubicación actual</strong><br>');
+    detalleUbicacionOrigen.open(map, marker);
+    }
+
+    var funcionError = function(error) {
+    alert("Tenemos un problema para encontrar tu ubicación");
+    }
 
 });
 
