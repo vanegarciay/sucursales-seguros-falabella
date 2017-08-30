@@ -13,7 +13,7 @@ function initMap(){
         marcarSucursalesEnMapa(sucursales);
         inputAutocompletado(map);
         listarSucursales(sucursales);
-        resetMap();
+        /*resetMap();*/
 
         /* Mi ubicación actual */
         $( "#encuentrame" ).click(function() {
@@ -23,11 +23,11 @@ function initMap(){
         $("#option_region").on("change", function(){
             sucursalSingle = $(this).val();
             console.log(sucursalSingle);
-            resetMap();
+            /*resetMap();*/
         });
 
-        function resetMap() {
-            var mapZoom = 12;
+        /*function resetMap() {
+
             map = new google.maps.Map(document.getElementById("map"),{
                 zoom: mapZoom,
                 center: {lat: -33.4430, lng: -70.6619},
@@ -46,7 +46,7 @@ function initMap(){
             });
 
             marcarSucursalesEnMapa(sucursales);
-        }
+        }*/
 
         function marcarSucursalesEnMapa(sucursales) {
             sucursales.forEach(function(sucursal){
