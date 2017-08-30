@@ -12637,10 +12637,10 @@ function initMap(){
     		zoom: 8,
     		center:{lat:-33.4430, lng: -70.6619},
     		mapTypeControl: false,
-    		zoomControl: false,
+    		zoomControl: true,
     		streetViewControl:false
     	});
-        
+
         var marker = crearMarcador(map);
         marcarSucursalesEnMapa(sucursales);
 
