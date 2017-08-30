@@ -1,7 +1,8 @@
 $(document).ready(function(){
 	$("#option_region").change(function(){
 		$("#sucursales-printed").empty();
-		$("#select-comuna").empty();
+		$("#select-comuna-stgo").addClass("hide");
+		$("#select-comuna-valpo").addClass("hide");
 		var region =$("#option_region").val();
 		if(($("#option_region").val())=== "Región de Tarapacá"){
 			console.log(sucursales[0].nombre)
@@ -64,7 +65,7 @@ $(document).ready(function(){
 			console.log(sucursales[9].nombre);
 			console.log(sucursales[10].nombre);			
 			console.log(sucursales[11].nombre);
-
+			$("#select-comuna-valpo").removeClass("hide");
 			for(var i= 6; i<12;i++){
 				$("#sucursales-printed").append(`
 				<div class="cuadro-sucursal col-md-5 col-lg-5 col-xs-12 id=`+ sucursales[i].id +`">
@@ -76,24 +77,13 @@ $(document).ready(function(){
 	            </div>
 				`)
 			}
-			$("#select-comuna").append(`
-	        	<label for="option_comuna">¿En cuál comuna buscas sucursal?</label>
-	        	<select class="form-control" id="option_comuna">
-	            	<option value="" disabled selected>Buscar por comuna</option>          
-	            	<option value="La Calera">La Calera</option>
-	            	<option value="Quilpué">Quilpué</option>	            	
-	            	<option value="San Felipe">San Felipe</option>
-	            	<option value="Valparaíso">Valparaíso</option>
-	            	<option value="Viña del Mar">Viña del Mar</option>
-	        	</select>
-				`)
 
 		}
 		else if(($("#option_region").val()) === "Región Metropolitana"){
 			console.log(sucursales[12].nombre);			
 			console.log(sucursales[42].nombre);
 
-
+			$("#select-comuna-stgo").removeClass("hide");
 			for(var i= 12; i<43;i++){
 				$("#sucursales-printed").append(`
 				<div class="cuadro-sucursal col-md-5 col-lg-5 col-xs-12 id=`+ sucursales[i].id +`">
@@ -105,27 +95,7 @@ $(document).ready(function(){
 	            </div>
 				`)
 			}
-			$("#select-comuna").append(`
-	        	<label for="option_comuna">¿En cuál comuna buscas sucursal?</label>
-	        	<select class="form-control" id="option_comuna">
-	            	<option value="" disabled selected>Buscar por comuna</option>          
-	            	<option value="Cerrillos">Cerrillos</option>
-	            	<option value="Estación Central">Estación Central</option>	            	
-	            	<option value="Huechuraba">Huechuraba</option>
-	            	<option value="La Florida">La Florida</option>
-	            	<option value="La Reina">La Reina</option>
-	            	<option value="Las Condes">Las Condes</option>
-	            	<option value="Lo Barnechea">Lo Barnechea</option>
-	            	<option value="Maipú">Maipú</option> 
-	            	<option value="Ñuñoa">Ñuñoa</option>
-	            	<option value="Providencia">Providencia</option>
-	            	<option value="Puente Alto">Puente Alto</option>	            	
-	            	<option value="Quilicura">Quilicura</option>
-	            	<option value="San Miguel">San Miguel</option>
-	            	<option value="Santiago">Santiago</option>
-	            	<option value="San Bernardo">San Bernardo</option>      	         	      	           	
-	        	</select>
-				`);
+
 
 		}
 		else if(($("#option_region").val())==="Region de O'Higgins"){
@@ -225,38 +195,5 @@ $(document).ready(function(){
 				`)
 		}	
 	});
-	$("#option_comuna").change(function(){
-		alert("work in progress")
-		$("#sucursales-printed").empty();		
-		if(($("#option-comuna").val())==="La Calera"){
-			alert("wena")
-		}
-		else if(($("#option-comuna").val())==="Quilpué"){
-			alert("no")
-			$("#sucursales-printed").append(`
-			<div class="cuadro-sucursal col-md-5 col-lg-5 col-xs-12 id=`+ sucursales[11].id +`">
-              	<h4>`+ sucursales[11].nombre +`</h4>
-              	<p>`+ sucursales[11].title +`</p>
-              	<p>`+ sucursales[11].direccion +`</p>
-              	<p>`+ sucursales[11].comuna +`, `+ sucursales[11].region +`</p>
-              	<p><b>Horario:</b> `+ sucursales[11].horario +`</p>
-        	</div>
-			`)			
-		}
-		else if(($("#option_region").val()) ==="San Felipe"){
-			alert("work damn it")
-			$("#sucursales-printed").append(`
-			<div class="cuadro-sucursal col-md-5 col-lg-5 col-xs-12 id=`+ sucursales[10].id +`">
-              	<h4>`+ sucursales[10].nombre +`</h4>
-              	<p>`+ sucursales[10].title +`</p>
-              	<p>`+ sucursales[10].direccion +`</p>
-              	<p>`+ sucursales[10].comuna +`, `+ sucursales[10].region +`</p>
-              	<p><b>Horario:</b> `+ sucursales[10].horario +`</p>
-        	</div>
-			`)			
-		}
-		else{
-			alert("none")
-		}		
-	});
+
 });
