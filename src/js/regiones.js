@@ -2,21 +2,20 @@ var regiones = [
 	{
 		"id": 57,
 		"region":"Región de Tarapacá",
-
 		"latitud": -20.2328758,
-		"longitud": -70.14290879999999		
+		"longitud": -70.14290879999999
 	},
 	{
 		"id": 58,
 		"region":"Región de Antofagasta",
 		"latitud": -23.5008275,
-		"longitud": -68.8636491,		
+		"longitud": -68.8636491,
 	},
 	{
 		"id": 59,
 		"region":"Región de Atacama",
 		"latitud": -27.3693267,
-		"longitud": -70.33958419999999		
+		"longitud": -70.33958419999999
 	},
 	{
 		"id": 60,
@@ -61,7 +60,7 @@ var regiones = [
 			"latitud": -33.0482707,
 			"longitud": -71.4408752
 
-		}]		
+		}],
 		"latitud":-2.1745881,
 		"longitud":-175.6881946
 	},
@@ -72,25 +71,25 @@ var regiones = [
 			"id": 75,
 		    "comuna": "Quilicura",
 		    "latitud": -33.0573408,
-		    "longitud": -71.60442319999999,
+		    "longitud": -71.60442319999999
 		},
 		{
 		    "id": 76,
 		    "comuna": "La Reina",
 		    "latitud": -33.4411269,
-		    "longitud": -70.53405909999998,
+		    "longitud": -70.53405909999998
 		},
 		{
 		    "id": 77,
 		    "comuna": "Las Condes",
 		    "latitud": -33.3989812,
-		    "longitud": -70.5573124,
+		    "longitud": -70.5573124
 		},
 		{
 		    "id": 78,
 		    "comuna": "Maipu",
 		    "latitud": -33.5209155,
-		    "longitud": -70.76313349999998,
+		    "longitud": -70.76313349999998
 		},
 		{
 		    "id": 79,
@@ -163,9 +162,9 @@ var regiones = [
 		    "comuna": "Melipilla",
 		    "latitud": -33.6861588,
 		    "longitud": -71.2166838
-		}]		
+		}],
 		"latitud":-33.5787913,
-		"longitud":-72.9829728		
+		"longitud":-72.9829728
 	},
 	{
 		"id":63,
@@ -196,13 +195,13 @@ var regiones = [
 		"region":"Región de la Araucanía",
 		"latitud":-38.7446848,
 		"longitud":-72.58974660000001
-	}
+	},
 	{
 		"id":68,
 		"region":"Región de los Lagos",
 		"latitud":-42.0558395,
 		"longitud":-77.706636
-	}
+	},
 	{
 		"id":69,
 		"region":"Región de Magallanes",
