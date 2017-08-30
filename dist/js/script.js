@@ -12643,6 +12643,7 @@ function initMap(){
         });
 
         marcarSucursalesEnMapa(sucursales);
+        inputAutocompletado(map);
         listarSucursales(sucursales);
 
         /* Mi ubicación actual */
@@ -12737,6 +12738,51 @@ function initMap(){
             alert("No podemos encontrar tu ubicación");
         }
 
+        function inputAutocompletado(map) {
+            var inputBuscar = document.getElementById('origin');
+            var autocompleteBuscar = new google.maps.places.Autocomplete(inputBuscar);
+            autocompleteBuscar.bindTo('bounds', map);
+            crearListener(autocompleteBuscar, map);
+        }
+
+        function crearListener(autocomplete, detalleUbicacion, marker) {
+            autocomplete.addListener('place_changed', function() {
+            /*detalleUbicacion.close();*/
+            /*marker.setVisible(false);*/
+            var place = autocomplete.getPlace();
+            marcarUbicacion(place, detalleUbicacion, marker);
+            });
+        }
+
+        var marcarUbicacion = function(place, detalleUbicacion, marker) {
+            if (!place.geometry) {
+                // Error si no encuentra el lugar indicado
+                window.alert("No encontramos el lugar que indicaste: '" + place.name + "'");
+                return;
+            }
+            // If the place has a geometry, then present it on a map.
+            if (place.geometry.viewport) {
+                map.fitBounds(place.geometry.viewport);
+            } else {
+                map.setCenter(place.geometry.location);
+                map.setZoom(8);
+            }
+
+            marker.setPosition(place.geometry.location);
+            marker.setVisible(true);
+
+            var address = '';
+            if (place.address_components) {
+                address = [
+                    (place.address_components[0] && place.address_components[0].short_name || ''),
+                    (place.address_components[1] && place.address_components[1].short_name || ''),
+                    (place.address_components[2] && place.address_components[2].short_name || '')
+                ].join(' ');
+            }
+
+            detalleUbicacion.setContent('<div><strong>' + place.name + '</strong><br>' + address);
+            detalleUbicacion.open(map, marker);
+        }
     });
 
 }
