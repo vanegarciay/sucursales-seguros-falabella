@@ -9,14 +9,44 @@ function initMap(){
             streetViewControl: false
         });
 
+        var sucursalSingle = "";
         marcarSucursalesEnMapa(sucursales);
         inputAutocompletado(map);
         listarSucursales(sucursales);
+        resetMap();
 
         /* Mi ubicación actual */
         $( "#encuentrame" ).click(function() {
             buscarMiUbicacion(map);
         });
+
+        $("#option_region").on("change", function(){
+            sucursalSingle = $(this).val();
+            console.log(sucursalSingle);
+            resetMap();
+        });
+
+        function resetMap() {
+            var mapZoom = 12;
+            map = new google.maps.Map(document.getElementById("map"),{
+                zoom: mapZoom,
+                center: {lat: -33.4430, lng: -70.6619},
+                mapTypeControl: true,
+                zoomControl: true,
+                streetViewControl: true
+            });
+
+            google.maps.event.addListener(map, 'zoom_changed', function() {
+                mapZoom = map.getZoom();
+            });
+
+            google.maps.event.addListener(map, 'idle', function(event){
+                latitud = map.getCenter().lat();
+                longitud = map.getCenter().lng();
+            });
+
+            marcarSucursalesEnMapa(sucursales);
+        }
 
         function marcarSucursalesEnMapa(sucursales) {
             sucursales.forEach(function(sucursal){
