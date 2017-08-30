@@ -22,7 +22,6 @@ var sucursales =[
 		"latitud": -23.6460605,
 		"longitud": -70.400822,
 		"title": ""
-
 	},
 	{
 		"id": 3,
