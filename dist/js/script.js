@@ -12646,6 +12646,21 @@ $(document).ready(function(){
             </div>
 				`)
 		}
+		else if(($("#option_region").val())=== "Región de Antofagasta"){
+			console.log(sucursales[1].nombre);
+			console.log(sucursales[2].nombre);
+			for(var i= 1; i<3;i++){
+				$("#sucursales-printed").append(`
+				<div class="cuadro-sucursal col-md-5 col-lg-5 col-xs-12 id=`+ sucursales[i].id +`">
+	                  <h4>`+ sucursales[i].nombre +`</h4>
+	                  <p>`+ sucursales[i].title +`</p>
+	                  <p>`+ sucursales[i].direccion +`</p>
+	                  <p>`+ sucursales[i].comuna +`, `+ sucursales[i].region +`</p>
+	                  <p><b>Horario:</b> `+ sucursales[i].horario +`</p>
+	            </div>
+				`)
+			}
+		}		
 		else if(($("#option_region").val())=== "Región de Atacama"){
 			console.log(sucursales[3].nombre)
 			$("#sucursales-printed").append(`
@@ -12657,6 +12672,21 @@ $(document).ready(function(){
                   <p><b>Horario:</b> `+ sucursales[3].horario +`</p>
             </div>
 				`)
+		}
+		else if(($("#option_region").val())=== "Región de Coquimbo"){
+			console.log(sucursales[4].nombre);
+			console.log(sucursales[5].nombre);
+			for(var i= 4; i<5;i++){
+				$("#sucursales-printed").append(`
+				<div class="cuadro-sucursal col-md-5 col-lg-5 col-xs-12 id=`+ sucursales[i].id +`">
+	                  <h4>`+ sucursales[i].nombre +`</h4>
+	                  <p>`+ sucursales[i].title +`</p>
+	                  <p>`+ sucursales[i].direccion +`</p>
+	                  <p>`+ sucursales[i].comuna +`, `+ sucursales[i].region +`</p>
+	                  <p><b>Horario:</b> `+ sucursales[i].horario +`</p>
+	            </div>
+				`)
+			}
 		}
 		else if(($("#option_region").val())=== "Región de Magallanes"){
 			console.log(sucursales[55].nombre)
