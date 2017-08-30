@@ -12632,7 +12632,7 @@ if (typeof jQuery === 'undefined') {
 
 function initMap(){
     $(document).ready(function() {
-        
+
     	var map = new google.maps.Map(document.getElementById("map"), {
     		zoom: 8,
     		center:{lat:-33.4430, lng: -70.6619},
@@ -12640,7 +12640,8 @@ function initMap(){
     		zoomControl: false,
     		streetViewControl:false
     	});
-
+        
+        var marker = crearMarcador(map);
         marcarSucursalesEnMapa(sucursales);
 
             /* Mi ubicación actual */
@@ -12660,8 +12661,7 @@ function initMap(){
         }
 
         function marcarSucursal(lat, lon) {
-            var marker = crearMarcador(map);
-
+            crearMarcador(map);
             marker.setPosition(new google.maps.LatLng(lat,lon));
             marker.setVisible(true);
         }
@@ -12701,9 +12701,6 @@ function initMap(){
     map.setZoom(17);
 
     marker.setVisible(true);
-
-    detalleUbicacionOrigen.setContent('<div><strong>Mi ubicación actual</strong><br>');
-    detalleUbicacionOrigen.open(map, marker);
     }
 
     var funcionError = function(error) {
