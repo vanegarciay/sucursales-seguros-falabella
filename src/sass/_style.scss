@@ -5,8 +5,12 @@ body {
 		height:400px;
 		border: 2px solid white;
 		border-radius: 10px;
+		margin-bottom:20px;
 	}
-	.cuadro-sucursal{
-		height:180px;
+	#sucursales-printed{
+		.cuadro-sucursal{
+			height:180px;
+		}
 	}
+
 }
